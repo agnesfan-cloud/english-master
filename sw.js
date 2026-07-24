@@ -1,10 +1,10 @@
-const CACHE = 'english-master-v12-verified-audio-hotspots';
+const CACHE = 'english-master-v13-full-reading-fix';
 const CORE = [
   './',
   './index.html',
   './style.css',
   './hotspot-v6.css',
-  './app.js?v=12',
+  './app.js?v=13',
   './lessons.json',
   './hotspots.json',
   './manifest.webmanifest'
