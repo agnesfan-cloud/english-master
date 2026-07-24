@@ -1,10 +1,10 @@
-const CACHE = 'english-master-v13-full-reading-fix';
+const CACHE = 'english-master-v14-slower-full-reading';
 const CORE = [
   './',
   './index.html',
   './style.css',
   './hotspot-v6.css',
-  './app.js?v=13',
+  './app.js?v=14',
   './lessons.json',
   './hotspots.json',
   './manifest.webmanifest'
