@@ -1,0 +1,78 @@
+.lesson-image,
+.hotspot-stage,
+.hotspot {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.lesson-image {
+  -webkit-user-drag: none;
+}
+
+.hotspot-stage {
+  touch-action: pan-y;
+}
+
+.hotspot {
+  border-radius: 5px;
+  touch-action: none;
+}
+
+.hotspot.activated {
+  animation: hotspot-flash 0.48s ease-out;
+}
+
+.hotspot.pressed {
+  border-color: #168ce8;
+  background: #78c8ff55;
+}
+
+@keyframes hotspot-flash {
+  0% {
+    background: #78c8ff99;
+    box-shadow: 0 0 0 4px #168ce855;
+  }
+  100% {
+    background: transparent;
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+.editing.hide-hotspots .hotspot {
+  border-color: transparent;
+  background: transparent;
+}
+
+.editing.hide-hotspots .hotspot span,
+.editing.hide-hotspots .resize-handle {
+  display: none;
+}
+
+.editor-actions button:disabled {
+  opacity: 0.45;
+}
+
+.hotspot-stage .translation {
+  position: absolute;
+  right: auto;
+  bottom: auto;
+  z-index: 10;
+  min-width: 0;
+  transform: translate(-50%, calc(-100% - 7px));
+  opacity: 0;
+  pointer-events: none;
+  background: #101522ee;
+  color: #fff;
+  border-radius: 9px;
+  padding: 7px 12px;
+  box-shadow: 0 5px 16px #0006;
+  white-space: nowrap;
+  font-size: 16px;
+  transition: opacity 0.15s;
+}
+
+.hotspot-stage .translation.show {
+  opacity: 1;
+  transform: translate(-50%, calc(-100% - 7px));
+}

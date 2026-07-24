@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#173f8a">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="hotspot-v6.css">
+  <title>English Master</title>
+</head>
+<body>
+  <header><div><h1>English Master</h1><p>100 課生活美式英文互動教材</p></div><div class="header-actions"><button id="themeBtn">深色</button></div></header>
+  <main>
+    <section class="stats"><b id="doneText">0 / 100 課</b><div class="progress"><i id="bar"></i></div><b id="percent">0%</b></section>
+    <section class="continue"><div><small>繼續學習</small><h2 id="continueTitle">Lesson 1</h2></div><button class="primary" id="continueBtn">開始</button></section>
+    <section class="toolbar"><input id="search" placeholder="搜尋 Lesson、英文或中文主題"><select id="category"></select><button id="favOnly">只看收藏</button></section>
+    <section id="grid" class="grid"></section>
+  </main>
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-label="課程內容">
+    <div class="panel">
+      <div class="panel-head"><div><b id="modalTitle"></b><div id="modalSub"></div></div><button id="closeBtn">關閉</button></div>
+      <div class="tabs"><button data-tab="image" class="active">互動圖卡</button><button data-tab="words">單字點讀</button><button data-tab="reading">朗讀</button><button data-tab="quiz">小測驗</button></div>
+      <div id="imagePane" class="tabpane active"></div><div id="wordsPane" class="tabpane"></div><div id="readingPane" class="tabpane"></div><div id="quizPane" class="tabpane"></div>
+      <div class="navrow"><button id="prevBtn">上一課</button><button id="markDone">標記完成</button><button id="nextBtn">下一課</button></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  <script>if('serviceWorker'in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js'));}</script>
+</body>
+</html>

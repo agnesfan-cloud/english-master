@@ -1,0 +1,3749 @@
+[
+  {
+    "id": 1,
+    "title": "WAKE UP",
+    "titleZh": "起床",
+    "category": "居家與日常",
+    "image": "images/lesson-001.png",
+    "content": {
+      "title": "WAKE UP",
+      "titleZh": "起床",
+      "vocabulary": [
+        [
+          "wake up",
+          "醒來／起床"
+        ],
+        [
+          "bed",
+          "床"
+        ],
+        [
+          "pillow",
+          "枕頭"
+        ],
+        [
+          "blanket",
+          "毯子"
+        ],
+        [
+          "lamp",
+          "燈"
+        ]
+      ],
+      "core": [
+        "Wake up!",
+        "I wake up in my bed."
+      ],
+      "reading": "Good morning! I wake up in my bed. My head is on the pillow, and the blanket keeps me warm. The lamp is next to my bed."
+    }
+  },
+  {
+    "id": 2,
+    "title": "LESSON 2",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-002.png",
+    "content": null
+  },
+  {
+    "id": 3,
+    "title": "LESSON 3",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-003.jpeg",
+    "content": null
+  },
+  {
+    "id": 4,
+    "title": "LESSON 4",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-004.jpeg",
+    "content": null
+  },
+  {
+    "id": 5,
+    "title": "LESSON 5",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-005.jpeg",
+    "content": null
+  },
+  {
+    "id": 6,
+    "title": "LESSON 6",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-006.jpeg",
+    "content": null
+  },
+  {
+    "id": 7,
+    "title": "LESSON 7",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-007.jpeg",
+    "content": null
+  },
+  {
+    "id": 8,
+    "title": "LESSON 8",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-008.jpeg",
+    "content": null
+  },
+  {
+    "id": 9,
+    "title": "LESSON 9",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-009.jpeg",
+    "content": null
+  },
+  {
+    "id": 10,
+    "title": "LESSON 10",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-010.jpeg",
+    "content": null
+  },
+  {
+    "id": 11,
+    "title": "LESSON 11",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-011.jpeg",
+    "content": null
+  },
+  {
+    "id": 12,
+    "title": "LESSON 12",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-012.jpeg",
+    "content": null
+  },
+  {
+    "id": 13,
+    "title": "LESSON 13",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-013.jpeg",
+    "content": null
+  },
+  {
+    "id": 14,
+    "title": "LESSON 14",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-014.jpeg",
+    "content": null
+  },
+  {
+    "id": 15,
+    "title": "LESSON 15",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-015.jpeg",
+    "content": null
+  },
+  {
+    "id": 16,
+    "title": "LESSON 16",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-016.jpeg",
+    "content": null
+  },
+  {
+    "id": 17,
+    "title": "LESSON 17",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-017.jpeg",
+    "content": null
+  },
+  {
+    "id": 18,
+    "title": "LESSON 18",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-018.jpeg",
+    "content": null
+  },
+  {
+    "id": 19,
+    "title": "LESSON 19",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-019.jpeg",
+    "content": null
+  },
+  {
+    "id": 20,
+    "title": "LESSON 20",
+    "titleZh": "教材內容待匯入",
+    "category": "居家與日常",
+    "image": "images/lesson-020.jpeg",
+    "content": null
+  },
+  {
+    "id": 21,
+    "title": "LESSON 21",
+    "titleZh": "教材內容待匯入",
+    "category": "家庭生活",
+    "image": "images/lesson-021.jpeg",
+    "content": null
+  },
+  {
+    "id": 22,
+    "title": "LESSON 22",
+    "titleZh": "教材內容待匯入",
+    "category": "家庭生活",
+    "image": "images/lesson-022.jpeg",
+    "content": null
+  },
+  {
+    "id": 23,
+    "title": "LESSON 23",
+    "titleZh": "教材內容待匯入",
+    "category": "家庭生活",
+    "image": "images/lesson-023.png",
+    "content": null
+  },
+  {
+    "id": 24,
+    "title": "LESSON 24",
+    "titleZh": "教材內容待匯入",
+    "category": "家庭生活",
+    "image": "images/lesson-024.jpeg",
+    "content": null
+  },
+  {
+    "id": 25,
+    "title": "LESSON 25",
+    "titleZh": "教材內容待匯入",
+    "category": "家庭生活",
+    "image": "images/lesson-025.jpeg",
+    "content": null
+  },
+  {
+    "id": 26,
+    "title": "LESSON 26",
+    "titleZh": "教材內容待匯入",
+    "category": "家庭生活",
+    "image": "images/lesson-026.jpeg",
+    "content": null
+  },
+  {
+    "id": 27,
+    "title": "LESSON 27",
+    "titleZh": "教材內容待匯入",
+    "category": "家庭生活",
+    "image": "images/lesson-027.jpeg",
+    "content": null
+  },
+  {
+    "id": 28,
+    "title": "LESSON 28",
+    "titleZh": "教材內容待匯入",
+    "category": "家庭生活",
+    "image": "images/lesson-028.jpeg",
+    "content": null
+  },
+  {
+    "id": 29,
+    "title": "LESSON 29",
+    "titleZh": "教材內容待匯入",
+    "category": "家庭生活",
+    "image": "images/lesson-029.jpeg",
+    "content": null
+  },
+  {
+    "id": 30,
+    "title": "LESSON 30",
+    "titleZh": "教材內容待匯入",
+    "category": "家庭生活",
+    "image": "images/lesson-030.jpeg",
+    "content": null
+  },
+  {
+    "id": 31,
+    "title": "LESSON 31",
+    "titleZh": "教材內容待匯入",
+    "category": "家庭生活",
+    "image": "images/lesson-031.jpeg",
+    "content": null
+  },
+  {
+    "id": 32,
+    "title": "LESSON 32",
+    "titleZh": "教材內容待匯入",
+    "category": "家庭生活",
+    "image": "images/lesson-032.png",
+    "content": null
+  },
+  {
+    "id": 33,
+    "title": "LESSON 33",
+    "titleZh": "教材內容待匯入",
+    "category": "家庭生活",
+    "image": "images/lesson-033.jpeg",
+    "content": null
+  },
+  {
+    "id": 34,
+    "title": "LESSON 34",
+    "titleZh": "教材內容待匯入",
+    "category": "家庭生活",
+    "image": "images/lesson-034.jpeg",
+    "content": null
+  },
+  {
+    "id": 35,
+    "title": "LESSON 35",
+    "titleZh": "教材內容待匯入",
+    "category": "家庭生活",
+    "image": "images/lesson-035.jpeg",
+    "content": null
+  },
+  {
+    "id": 36,
+    "title": "TAKING CARE OF MY PET",
+    "titleZh": "照顧我的寵物",
+    "category": "家庭生活",
+    "image": "images/lesson-036.jpeg",
+    "content": null
+  },
+  {
+    "id": 37,
+    "title": "A DAY AT HOME",
+    "titleZh": "在家的一天",
+    "category": "家庭生活",
+    "image": "images/lesson-037.jpeg",
+    "content": null
+  },
+  {
+    "id": 38,
+    "title": "FAMILY TRADITIONS",
+    "titleZh": "家庭傳統",
+    "category": "家庭生活",
+    "image": "images/lesson-038.jpeg",
+    "content": null
+  },
+  {
+    "id": 39,
+    "title": "MY DREAM HOUSE",
+    "titleZh": "我的夢想房子",
+    "category": "家庭生活",
+    "image": "images/lesson-039.jpeg",
+    "content": null
+  },
+  {
+    "id": 40,
+    "title": "REVIEW",
+    "titleZh": "家庭生活總複習",
+    "category": "家庭生活",
+    "image": "images/lesson-040.jpeg",
+    "content": null
+  },
+  {
+    "id": 41,
+    "title": "SUPERMARKET",
+    "titleZh": "超級市場",
+    "category": "社區生活",
+    "image": "images/lesson-041.jpeg",
+    "content": {
+      "title": "SUPERMARKET",
+      "titleZh": "超級市場",
+      "vocabulary": [
+        [
+          "supermarket",
+          "超級市場"
+        ],
+        [
+          "shopping cart",
+          "購物車"
+        ],
+        [
+          "basket",
+          "籃子"
+        ],
+        [
+          "cashier",
+          "收銀員"
+        ],
+        [
+          "receipt",
+          "收據"
+        ],
+        [
+          "money",
+          "錢"
+        ]
+      ],
+      "core": [
+        "I buy fresh fruit."
+      ],
+      "reading": "I go to the supermarket with my family. We buy fruit, vegetables, and milk. We pay at the checkout and take the groceries home."
+    }
+  },
+  {
+    "id": 42,
+    "title": "HOSPITAL",
+    "titleZh": "醫院",
+    "category": "社區生活",
+    "image": "images/lesson-042.jpeg",
+    "content": {
+      "title": "HOSPITAL",
+      "titleZh": "醫院",
+      "vocabulary": [
+        [
+          "doctor",
+          "醫師"
+        ],
+        [
+          "nurse",
+          "護理師"
+        ],
+        [
+          "medicine",
+          "藥"
+        ],
+        [
+          "bed",
+          "床"
+        ],
+        [
+          "X-ray",
+          "X光"
+        ],
+        [
+          "wheelchair",
+          "輪椅"
+        ]
+      ],
+      "core": [
+        "I feel better now."
+      ],
+      "reading": "I have a cough and a fever. My mom takes me to the hospital. The doctor checks me, and the nurse helps me. I take medicine and rest in bed."
+    }
+  },
+  {
+    "id": 43,
+    "title": "POST OFFICE",
+    "titleZh": "郵局",
+    "category": "社區生活",
+    "image": "images/lesson-043.jpeg",
+    "content": {
+      "title": "POST OFFICE",
+      "titleZh": "郵局",
+      "vocabulary": [
+        [
+          "letter",
+          "信"
+        ],
+        [
+          "package",
+          "包裹"
+        ],
+        [
+          "stamp",
+          "郵票"
+        ],
+        [
+          "mailbox",
+          "郵筒"
+        ],
+        [
+          "postcard",
+          "明信片"
+        ],
+        [
+          "tracking",
+          "追蹤"
+        ]
+      ],
+      "core": [
+        "I will send a letter."
+      ],
+      "reading": "I go to the post office with my mom. We buy a stamp, mail a letter, and track a package online."
+    }
+  },
+  {
+    "id": 44,
+    "title": "BANK",
+    "titleZh": "銀行",
+    "category": "社區生活",
+    "image": "images/lesson-044.jpeg",
+    "content": {
+      "title": "BANK",
+      "titleZh": "銀行",
+      "vocabulary": [
+        [
+          "money",
+          "錢"
+        ],
+        [
+          "card",
+          "卡片"
+        ],
+        [
+          "cash",
+          "現金"
+        ],
+        [
+          "account",
+          "帳戶"
+        ],
+        [
+          "ATM",
+          "自動提款機"
+        ],
+        [
+          "deposit",
+          "存款"
+        ]
+      ],
+      "core": [
+        "I save money at the bank."
+      ],
+      "reading": "We take a number and wait. We deposit money into our account, withdraw cash, and check our balance."
+    }
+  },
+  {
+    "id": 45,
+    "title": "POLICE STATION",
+    "titleZh": "警察局",
+    "category": "社區生活",
+    "image": "images/lesson-045.jpeg",
+    "content": {
+      "title": "POLICE STATION",
+      "titleZh": "警察局",
+      "vocabulary": [
+        [
+          "officer",
+          "警察"
+        ],
+        [
+          "police car",
+          "警車"
+        ],
+        [
+          "handcuffs",
+          "手銬"
+        ],
+        [
+          "radio",
+          "無線電"
+        ],
+        [
+          "badge",
+          "徽章"
+        ],
+        [
+          "emergency",
+          "緊急狀況"
+        ]
+      ],
+      "core": [
+        "The police keep us safe."
+      ],
+      "reading": "We talk to a police officer. Police officers protect our community and help people in an emergency."
+    }
+  },
+  {
+    "id": 46,
+    "title": "FIRE STATION",
+    "titleZh": "消防隊",
+    "category": "社區生活",
+    "image": "images/lesson-046.jpeg",
+    "content": {
+      "title": "FIRE STATION",
+      "titleZh": "消防隊",
+      "vocabulary": [
+        [
+          "fire truck",
+          "消防車"
+        ],
+        [
+          "firefighter",
+          "消防員"
+        ],
+        [
+          "hose",
+          "水管"
+        ],
+        [
+          "ladder",
+          "梯子"
+        ],
+        [
+          "hydrant",
+          "消防栓"
+        ],
+        [
+          "fire extinguisher",
+          "滅火器"
+        ]
+      ],
+      "core": [
+        "Thank you, firefighters!"
+      ],
+      "reading": "Firefighters drive the fire truck, use a hose and ladder, and help people in danger."
+    }
+  },
+  {
+    "id": 47,
+    "title": "LIBRARY",
+    "titleZh": "圖書館",
+    "category": "社區生活",
+    "image": "images/lesson-047.jpeg",
+    "content": {
+      "title": "LIBRARY",
+      "titleZh": "圖書館",
+      "vocabulary": [
+        [
+          "book",
+          "書"
+        ],
+        [
+          "library card",
+          "借書證"
+        ],
+        [
+          "librarian",
+          "圖書館員"
+        ],
+        [
+          "shelf",
+          "書架"
+        ],
+        [
+          "borrow",
+          "借"
+        ],
+        [
+          "return",
+          "歸還"
+        ]
+      ],
+      "core": [
+        "I like reading books at the library."
+      ],
+      "reading": "I get a library card, look for books on the shelf, borrow storybooks, and return them on time."
+    }
+  },
+  {
+    "id": 48,
+    "title": "PARK",
+    "titleZh": "公園",
+    "category": "社區生活",
+    "image": "images/lesson-048.jpeg",
+    "content": {
+      "title": "PARK",
+      "titleZh": "公園",
+      "vocabulary": [
+        [
+          "tree",
+          "樹"
+        ],
+        [
+          "swing",
+          "鞦韆"
+        ],
+        [
+          "slide",
+          "溜滑梯"
+        ],
+        [
+          "bench",
+          "長椅"
+        ],
+        [
+          "lake",
+          "湖"
+        ],
+        [
+          "play",
+          "玩"
+        ]
+      ],
+      "core": [
+        "Let's play in the park!"
+      ],
+      "reading": "I go to the park with my family. We walk, play, sit on a bench, and enjoy nature."
+    }
+  },
+  {
+    "id": 49,
+    "title": "BUS STATION",
+    "titleZh": "公車站",
+    "category": "社區生活",
+    "image": "images/lesson-049.jpeg",
+    "content": {
+      "title": "BUS STATION",
+      "titleZh": "公車站",
+      "vocabulary": [
+        [
+          "bus",
+          "公車"
+        ],
+        [
+          "bus stop",
+          "公車站"
+        ],
+        [
+          "schedule",
+          "時刻表"
+        ],
+        [
+          "ticket",
+          "票"
+        ],
+        [
+          "line",
+          "隊伍"
+        ],
+        [
+          "bench",
+          "長椅"
+        ]
+      ],
+      "core": [
+        "I take the bus to school."
+      ],
+      "reading": "I check the schedule, wait in line, get on the bus, and sit in my seat."
+    }
+  },
+  {
+    "id": 50,
+    "title": "RESTAURANT",
+    "titleZh": "餐廳",
+    "category": "社區生活",
+    "image": "images/lesson-050.jpeg",
+    "content": {
+      "title": "RESTAURANT",
+      "titleZh": "餐廳",
+      "vocabulary": [
+        [
+          "menu",
+          "菜單"
+        ],
+        [
+          "waiter",
+          "服務生"
+        ],
+        [
+          "seat",
+          "座位"
+        ],
+        [
+          "food",
+          "食物"
+        ],
+        [
+          "drink",
+          "飲料"
+        ],
+        [
+          "bill",
+          "帳單"
+        ],
+        [
+          "cashier",
+          "收銀員"
+        ]
+      ],
+      "core": [
+        "What would you like to eat?"
+      ],
+      "reading": "We look at the menu, order food and drinks, enjoy our meal, and pay the bill."
+    }
+  },
+  {
+    "id": 51,
+    "title": "BAKERY",
+    "titleZh": "麵包店",
+    "category": "社區生活",
+    "image": "images/lesson-051.jpeg",
+    "content": {
+      "title": "BAKERY",
+      "titleZh": "麵包店",
+      "vocabulary": [
+        [
+          "bread",
+          "麵包"
+        ],
+        [
+          "croissant",
+          "可頌"
+        ],
+        [
+          "cake",
+          "蛋糕"
+        ],
+        [
+          "donut",
+          "甜甜圈"
+        ],
+        [
+          "cookie",
+          "餅乾"
+        ],
+        [
+          "baker",
+          "麵包師"
+        ],
+        [
+          "bag",
+          "袋子"
+        ]
+      ],
+      "core": [
+        "I like fresh bread!"
+      ],
+      "reading": "We see many kinds of bread and cakes. We buy a cake and enjoy our treats."
+    }
+  },
+  {
+    "id": 52,
+    "title": "PHARMACY",
+    "titleZh": "藥局",
+    "category": "社區生活",
+    "image": "images/lesson-052.jpeg",
+    "content": {
+      "title": "PHARMACY",
+      "titleZh": "藥局",
+      "vocabulary": [
+        [
+          "medicine",
+          "藥"
+        ],
+        [
+          "pill",
+          "藥丸"
+        ],
+        [
+          "tablet",
+          "錠劑"
+        ],
+        [
+          "syrup",
+          "糖漿"
+        ],
+        [
+          "bandage",
+          "繃帶"
+        ],
+        [
+          "thermometer",
+          "溫度計"
+        ],
+        [
+          "prescription",
+          "處方箋"
+        ],
+        [
+          "pharmacist",
+          "藥師"
+        ]
+      ],
+      "core": [
+        "I need some medicine."
+      ],
+      "reading": "The pharmacist asks how I feel and tells me how to take the medicine."
+    }
+  },
+  {
+    "id": 53,
+    "title": "BOOKSTORE",
+    "titleZh": "書店",
+    "category": "社區生活",
+    "image": "images/lesson-053.jpeg",
+    "content": {
+      "title": "BOOKSTORE",
+      "titleZh": "書店",
+      "vocabulary": [
+        [
+          "book",
+          "書"
+        ],
+        [
+          "dictionary",
+          "字典"
+        ],
+        [
+          "storybook",
+          "故事書"
+        ],
+        [
+          "magazine",
+          "雜誌"
+        ],
+        [
+          "notebook",
+          "筆記本"
+        ],
+        [
+          "pen",
+          "原子筆"
+        ],
+        [
+          "cashier",
+          "收銀員"
+        ]
+      ],
+      "core": [
+        "I love reading books!"
+      ],
+      "reading": "I find a storybook, look at a magazine, and buy a dictionary."
+    }
+  },
+  {
+    "id": 54,
+    "title": "CLOTHING STORE",
+    "titleZh": "服飾店",
+    "category": "社區生活",
+    "image": "images/lesson-054.jpeg",
+    "content": {
+      "title": "CLOTHING STORE",
+      "titleZh": "服飾店",
+      "vocabulary": [
+        [
+          "shirt",
+          "襯衫"
+        ],
+        [
+          "pants",
+          "長褲"
+        ],
+        [
+          "dress",
+          "洋裝"
+        ],
+        [
+          "jacket",
+          "外套"
+        ],
+        [
+          "shoes",
+          "鞋子"
+        ],
+        [
+          "bag",
+          "袋子"
+        ],
+        [
+          "hat",
+          "帽子"
+        ],
+        [
+          "sunglasses",
+          "太陽眼鏡"
+        ],
+        [
+          "price",
+          "價格"
+        ],
+        [
+          "fitting room",
+          "試衣間"
+        ]
+      ],
+      "core": [
+        "These clothes look great!"
+      ],
+      "reading": "I try on a jacket. It fits me well. We choose clothes and pay at the checkout."
+    }
+  },
+  {
+    "id": 55,
+    "title": "TOY STORE",
+    "titleZh": "玩具店",
+    "category": "社區生活",
+    "image": "images/lesson-055.jpeg",
+    "content": {
+      "title": "TOY STORE",
+      "titleZh": "玩具店",
+      "vocabulary": [
+        [
+          "toy",
+          "玩具"
+        ],
+        [
+          "robot",
+          "機器人"
+        ],
+        [
+          "doll",
+          "娃娃"
+        ],
+        [
+          "toy car",
+          "玩具車"
+        ],
+        [
+          "building blocks",
+          "積木"
+        ],
+        [
+          "puzzle",
+          "拼圖"
+        ],
+        [
+          "ball",
+          "球"
+        ],
+        [
+          "kite",
+          "風箏"
+        ],
+        [
+          "board game",
+          "桌遊"
+        ],
+        [
+          "cashier",
+          "收銀員"
+        ]
+      ],
+      "core": [
+        "Playing with toys is so much fun!"
+      ],
+      "reading": "We choose our favorite toys and cannot wait to play with them."
+    }
+  },
+  {
+    "id": 56,
+    "title": "COMMUNITY REVIEW",
+    "titleZh": "社區生活總複習",
+    "category": "社區生活",
+    "image": "images/lesson-056.jpeg",
+    "content": null
+  },
+  {
+    "id": 57,
+    "title": "MOVIE THEATER",
+    "titleZh": "電影院",
+    "category": "社區生活",
+    "image": "images/lesson-057.png",
+    "content": {
+      "title": "MOVIE THEATER",
+      "titleZh": "電影院",
+      "vocabulary": [
+        [
+          "movie",
+          "電影"
+        ],
+        [
+          "screen",
+          "螢幕"
+        ],
+        [
+          "seat",
+          "座位"
+        ],
+        [
+          "ticket",
+          "票"
+        ],
+        [
+          "popcorn",
+          "爆米花"
+        ],
+        [
+          "drink",
+          "飲料"
+        ],
+        [
+          "3D glasses",
+          "3D眼鏡"
+        ],
+        [
+          "trailer",
+          "預告片"
+        ],
+        [
+          "snack bar",
+          "點心吧"
+        ],
+        [
+          "exit",
+          "出口"
+        ]
+      ],
+      "core": [
+        "I want to watch a movie."
+      ],
+      "reading": "We buy tickets, find our seats, watch the movie, and have a great time."
+    }
+  },
+  {
+    "id": 58,
+    "title": "MUSEUM",
+    "titleZh": "博物館",
+    "category": "社區生活",
+    "image": "images/lesson-058.jpeg",
+    "content": {
+      "title": "MUSEUM",
+      "titleZh": "博物館",
+      "vocabulary": [
+        [
+          "museum",
+          "博物館"
+        ],
+        [
+          "exhibit",
+          "展品"
+        ],
+        [
+          "dinosaur",
+          "恐龍"
+        ],
+        [
+          "painting",
+          "畫作"
+        ],
+        [
+          "sculpture",
+          "雕塑"
+        ],
+        [
+          "guide",
+          "導覽員"
+        ],
+        [
+          "ticket",
+          "票"
+        ],
+        [
+          "information",
+          "服務台"
+        ],
+        [
+          "gift shop",
+          "紀念品店"
+        ]
+      ],
+      "core": [
+        "Let's look at the exhibit."
+      ],
+      "reading": "We see dinosaur skeletons, paintings, and sculptures. We listen to the guide and take photos without flash."
+    }
+  },
+  {
+    "id": 59,
+    "title": "ZOO",
+    "titleZh": "動物園",
+    "category": "社區生活",
+    "image": "images/lesson-059.jpeg",
+    "content": {
+      "title": "ZOO",
+      "titleZh": "動物園",
+      "vocabulary": [
+        [
+          "lion",
+          "獅子"
+        ],
+        [
+          "elephant",
+          "大象"
+        ],
+        [
+          "giraffe",
+          "長頸鹿"
+        ],
+        [
+          "panda",
+          "貓熊"
+        ],
+        [
+          "monkey",
+          "猴子"
+        ],
+        [
+          "tiger",
+          "老虎"
+        ],
+        [
+          "zebra",
+          "斑馬"
+        ],
+        [
+          "bird",
+          "鳥"
+        ],
+        [
+          "penguin",
+          "企鵝"
+        ],
+        [
+          "snake",
+          "蛇"
+        ],
+        [
+          "bear",
+          "熊"
+        ]
+      ],
+      "core": [
+        "I love visiting the zoo!"
+      ],
+      "reading": "We see many different animals. We follow the rules and do not feed the animals."
+    }
+  },
+  {
+    "id": 60,
+    "title": "COMMUNITY HELPERS",
+    "titleZh": "社區工作者",
+    "category": "社區生活",
+    "image": "images/lesson-060.jpeg",
+    "content": {
+      "title": "COMMUNITY HELPERS",
+      "titleZh": "社區工作者",
+      "vocabulary": [
+        [
+          "doctor",
+          "醫師"
+        ],
+        [
+          "nurse",
+          "護理師"
+        ],
+        [
+          "police officer",
+          "警察"
+        ],
+        [
+          "firefighter",
+          "消防員"
+        ],
+        [
+          "teacher",
+          "老師"
+        ],
+        [
+          "mail carrier",
+          "郵差"
+        ],
+        [
+          "librarian",
+          "圖書館員"
+        ],
+        [
+          "bus driver",
+          "公車司機"
+        ],
+        [
+          "baker",
+          "麵包師"
+        ],
+        [
+          "cashier",
+          "收銀員"
+        ]
+      ],
+      "core": [
+        "Community helpers help people."
+      ],
+      "reading": "Community helpers make our lives safer, healthier, and better."
+    }
+  },
+  {
+    "id": 61,
+    "title": "CAR",
+    "titleZh": "汽車",
+    "category": "交通與學校",
+    "image": "images/lesson-061.jpeg",
+    "content": {
+      "title": "CAR",
+      "titleZh": "汽車",
+      "vocabulary": [
+        [
+          "car",
+          "汽車"
+        ],
+        [
+          "wheel",
+          "輪子"
+        ],
+        [
+          "door",
+          "車門"
+        ],
+        [
+          "windshield",
+          "擋風玻璃"
+        ],
+        [
+          "headlight",
+          "頭燈"
+        ],
+        [
+          "taillight",
+          "尾燈"
+        ],
+        [
+          "seat",
+          "座位"
+        ],
+        [
+          "seat belt",
+          "安全帶"
+        ],
+        [
+          "steering wheel",
+          "方向盤"
+        ],
+        [
+          "engine",
+          "引擎"
+        ]
+      ],
+      "core": [
+        "This is my car."
+      ],
+      "reading": "A car has four wheels, doors, seats, and an engine. Always wear your seat belt."
+    }
+  },
+  {
+    "id": 62,
+    "title": "BUS",
+    "titleZh": "公車",
+    "category": "交通與學校",
+    "image": "images/lesson-062.jpeg",
+    "content": {
+      "title": "BUS",
+      "titleZh": "公車",
+      "vocabulary": [
+        [
+          "bus",
+          "公車"
+        ],
+        [
+          "wheel",
+          "輪子"
+        ],
+        [
+          "door",
+          "車門"
+        ],
+        [
+          "window",
+          ""
+        ],
+        [
+          "seat",
+          "座位"
+        ],
+        [
+          "driver",
+          "司機"
+        ],
+        [
+          "bus stop",
+          "公車站"
+        ],
+        [
+          "ticket",
+          "票"
+        ],
+        [
+          "fare",
+          "車資"
+        ],
+        [
+          "route",
+          "路線"
+        ]
+      ],
+      "core": [
+        "I take the bus to school."
+      ],
+      "reading": "I wait at the bus stop, pay the fare, get on the bus, and ride safely."
+    }
+  },
+  {
+    "id": 63,
+    "title": "BICYCLE",
+    "titleZh": "腳踏車",
+    "category": "交通與學校",
+    "image": "images/lesson-063.jpeg",
+    "content": {
+      "title": "BICYCLE",
+      "titleZh": "腳踏車",
+      "vocabulary": [
+        [
+          "bicycle",
+          "腳踏車"
+        ],
+        [
+          "wheel",
+          "輪子"
+        ],
+        [
+          "handlebar",
+          "車把"
+        ],
+        [
+          "seat",
+          "座位"
+        ],
+        [
+          "pedal",
+          "踏板"
+        ],
+        [
+          "brake",
+          "煞車"
+        ],
+        [
+          "bell",
+          "車鈴"
+        ],
+        [
+          "basket",
+          "籃子"
+        ],
+        [
+          "helmet",
+          "安全帽"
+        ],
+        [
+          "bike lane",
+          "自行車道"
+        ]
+      ],
+      "core": [
+        "Riding a bicycle is healthy and good for the environment."
+      ],
+      "reading": "I wear a helmet, use the bike lane, ring the bell, and check my brakes."
+    }
+  },
+  {
+    "id": 64,
+    "title": "TRAIN",
+    "titleZh": "火車",
+    "category": "交通與學校",
+    "image": "images/lesson-064.jpeg",
+    "content": {
+      "title": "TRAIN",
+      "titleZh": "火車",
+      "vocabulary": [
+        [
+          "train",
+          "火車"
+        ],
+        [
+          "engine",
+          "引擎"
+        ],
+        [
+          "train car",
+          "車廂"
+        ],
+        [
+          "rail",
+          "鐵軌"
+        ],
+        [
+          "station",
+          "車站"
+        ],
+        [
+          "platform",
+          "月台"
+        ],
+        [
+          "ticket",
+          "票"
+        ],
+        [
+          "schedule",
+          "時刻表"
+        ],
+        [
+          "signal",
+          "號誌"
+        ],
+        [
+          "tunnel",
+          "隧道"
+        ]
+      ],
+      "core": [
+        "I take the train to the city."
+      ],
+      "reading": "I buy a ticket, check the schedule, wait on the platform, and enjoy the ride."
+    }
+  },
+  {
+    "id": 65,
+    "title": "AIRPLANE",
+    "titleZh": "飛機",
+    "category": "交通與學校",
+    "image": "images/lesson-065.jpeg",
+    "content": {
+      "title": "AIRPLANE",
+      "titleZh": "飛機",
+      "vocabulary": [
+        [
+          "airplane",
+          "飛機"
+        ],
+        [
+          "pilot",
+          "機師"
+        ],
+        [
+          "flight attendant",
+          "空服員"
+        ],
+        [
+          "wing",
+          "機翼"
+        ],
+        [
+          "engine",
+          "引擎"
+        ],
+        [
+          "tail",
+          "機尾"
+        ],
+        [
+          "window",
+          ""
+        ],
+        [
+          "seat",
+          "座位"
+        ],
+        [
+          "luggage",
+          "行李"
+        ],
+        [
+          "runway",
+          "跑道"
+        ]
+      ],
+      "core": [
+        "I fly on an airplane."
+      ],
+      "reading": "I check in, go through security, board the airplane, and put my luggage in the overhead bin."
+    }
+  },
+  {
+    "id": 66,
+    "title": "TAXI",
+    "titleZh": "計程車",
+    "category": "交通與學校",
+    "image": "images/lesson-066.jpeg",
+    "content": {
+      "title": "TAXI",
+      "titleZh": "計程車",
+      "vocabulary": [
+        [
+          "taxi",
+          "計程車"
+        ],
+        [
+          "driver",
+          "司機"
+        ],
+        [
+          "passenger",
+          "乘客"
+        ],
+        [
+          "meter",
+          "計費表"
+        ],
+        [
+          "fare",
+          "車資"
+        ],
+        [
+          "door",
+          "車門"
+        ],
+        [
+          "seat belt",
+          "安全帶"
+        ],
+        [
+          "destination",
+          "目的地"
+        ],
+        [
+          "traffic light",
+          "紅綠燈"
+        ],
+        [
+          "receipt",
+          "收據"
+        ]
+      ],
+      "core": [
+        "I take a taxi."
+      ],
+      "reading": "I hail a taxi, tell the driver my destination, pay the fare, and ask for a receipt."
+    }
+  },
+  {
+    "id": 67,
+    "title": "MOTORCYCLE",
+    "titleZh": "機車",
+    "category": "交通與學校",
+    "image": "images/lesson-067.jpeg",
+    "content": {
+      "title": "MOTORCYCLE",
+      "titleZh": "機車",
+      "vocabulary": [
+        [
+          "motorcycle",
+          "機車"
+        ],
+        [
+          "rider",
+          "騎士"
+        ],
+        [
+          "passenger",
+          "乘客"
+        ],
+        [
+          "helmet",
+          "安全帽"
+        ],
+        [
+          "handlebar",
+          "車把"
+        ],
+        [
+          "seat",
+          "座位"
+        ],
+        [
+          "mirror",
+          "後照鏡"
+        ],
+        [
+          "wheel",
+          "輪子"
+        ],
+        [
+          "engine",
+          "引擎"
+        ],
+        [
+          "traffic light",
+          "紅綠燈"
+        ]
+      ],
+      "core": [
+        "I ride a motorcycle with an adult."
+      ],
+      "reading": "We both wear helmets, sit safely, and follow traffic rules."
+    }
+  },
+  {
+    "id": 68,
+    "title": "SUBWAY",
+    "titleZh": "捷運",
+    "category": "交通與學校",
+    "image": "images/lesson-068.png",
+    "content": {
+      "title": "SUBWAY",
+      "titleZh": "捷運",
+      "vocabulary": [
+        [
+          "subway",
+          "捷運"
+        ],
+        [
+          "station",
+          "車站"
+        ],
+        [
+          "platform",
+          "月台"
+        ],
+        [
+          "ticket",
+          "票"
+        ],
+        [
+          "turnstile",
+          "閘門"
+        ],
+        [
+          "escalator",
+          "手扶梯"
+        ],
+        [
+          "train car",
+          "車廂"
+        ],
+        [
+          "map",
+          "地圖"
+        ],
+        [
+          "transfer",
+          "轉乘"
+        ],
+        [
+          "exit",
+          "出口"
+        ]
+      ],
+      "core": [
+        "I take the subway."
+      ],
+      "reading": "I buy a ticket, go through the turnstile, wait on the platform, and transfer if needed."
+    }
+  },
+  {
+    "id": 69,
+    "title": "BOAT",
+    "titleZh": "船",
+    "category": "交通與學校",
+    "image": "images/lesson-069.jpeg",
+    "content": {
+      "title": "BOAT",
+      "titleZh": "船",
+      "vocabulary": [
+        [
+          "boat",
+          "船"
+        ],
+        [
+          "sailboat",
+          "帆船"
+        ],
+        [
+          "ferry",
+          "渡輪"
+        ],
+        [
+          "captain",
+          "船長"
+        ],
+        [
+          "life jacket",
+          "救生衣"
+        ],
+        [
+          "anchor",
+          "錨"
+        ],
+        [
+          "harbor",
+          "港口"
+        ],
+        [
+          "passenger",
+          "乘客"
+        ],
+        [
+          "oar",
+          "槳"
+        ],
+        [
+          "engine",
+          "引擎"
+        ]
+      ],
+      "core": [
+        "I ride on a boat."
+      ],
+      "reading": "I wear a life jacket, get on the boat, enjoy the view, and listen to the captain."
+    }
+  },
+  {
+    "id": 70,
+    "title": "TRANSPORTATION REVIEW",
+    "titleZh": "交通工具總複習",
+    "category": "交通與學校",
+    "image": "images/lesson-070.jpeg",
+    "content": {
+      "title": "TRANSPORTATION REVIEW",
+      "titleZh": "交通工具總複習",
+      "vocabulary": [
+        [
+          "airplane",
+          "飛機"
+        ],
+        [
+          "bus",
+          "公車"
+        ],
+        [
+          "bicycle",
+          "腳踏車"
+        ],
+        [
+          "train",
+          "火車"
+        ],
+        [
+          "taxi",
+          "計程車"
+        ],
+        [
+          "motorcycle",
+          "機車"
+        ],
+        [
+          "subway",
+          "捷運"
+        ],
+        [
+          "boat",
+          "船"
+        ],
+        [
+          "sailboat",
+          "帆船"
+        ],
+        [
+          "ferry",
+          "渡輪"
+        ]
+      ],
+      "core": [
+        "There are many ways to travel."
+      ],
+      "reading": "We can travel by land, air, or water. Each type of transportation has a different use."
+    }
+  },
+  {
+    "id": 71,
+    "title": "TRAFFIC LIGHT",
+    "titleZh": "紅綠燈",
+    "category": "交通與學校",
+    "image": "images/lesson-071.jpeg",
+    "content": {
+      "title": "TRAFFIC LIGHT",
+      "titleZh": "紅綠燈",
+      "vocabulary": [
+        [
+          "traffic light",
+          "紅綠燈"
+        ],
+        [
+          "red",
+          "紅色"
+        ],
+        [
+          "yellow",
+          "黃色"
+        ],
+        [
+          "green",
+          "綠色"
+        ],
+        [
+          "stop",
+          "停"
+        ],
+        [
+          "wait",
+          "等"
+        ],
+        [
+          "go",
+          "走"
+        ],
+        [
+          "crosswalk",
+          "斑馬線"
+        ],
+        [
+          "road",
+          "道路"
+        ],
+        [
+          "safe",
+          "安全"
+        ]
+      ],
+      "core": [
+        "The traffic light is red."
+      ],
+      "reading": "Red means stop. Yellow means wait and prepare to stop. Green means look and go safely."
+    }
+  },
+  {
+    "id": 72,
+    "title": "CROSSWALK",
+    "titleZh": "斑馬線／行人穿越道",
+    "category": "交通與學校",
+    "image": "images/lesson-072.jpeg",
+    "content": {
+      "title": "CROSSWALK",
+      "titleZh": "斑馬線／行人穿越道",
+      "vocabulary": [
+        [
+          "crosswalk",
+          "斑馬線"
+        ],
+        [
+          "pedestrian",
+          "行人"
+        ],
+        [
+          "traffic light",
+          "紅綠燈"
+        ],
+        [
+          "wait",
+          "等"
+        ],
+        [
+          "cross",
+          "穿越"
+        ],
+        [
+          "vehicle",
+          "交通工具"
+        ],
+        [
+          "look left and right",
+          "左右查看"
+        ],
+        [
+          "sidewalk",
+          "人行道"
+        ],
+        [
+          "safe",
+          "安全"
+        ],
+        [
+          "stop",
+          "停"
+        ]
+      ],
+      "core": [
+        "I cross the street at the crosswalk."
+      ],
+      "reading": "Stop at the curb, look left and right, wait for the walk signal, and cross safely."
+    }
+  },
+  {
+    "id": 73,
+    "title": "ROAD SIGNS",
+    "titleZh": "道路標誌",
+    "category": "交通與學校",
+    "image": "images/lesson-073.jpeg",
+    "content": {
+      "title": "ROAD SIGNS",
+      "titleZh": "道路標誌",
+      "vocabulary": [
+        [
+          "stop sign",
+          "停車標誌"
+        ],
+        [
+          "yield sign",
+          "讓路標誌"
+        ],
+        [
+          "speed limit",
+          "速限"
+        ],
+        [
+          "no parking",
+          "禁止停車"
+        ],
+        [
+          "no U-turn",
+          "禁止迴轉"
+        ],
+        [
+          "one way",
+          "單行道"
+        ],
+        [
+          "turn left",
+          "左轉"
+        ],
+        [
+          "turn right",
+          "右轉"
+        ],
+        [
+          "school zone",
+          "學校區域"
+        ],
+        [
+          "road work",
+          "道路施工"
+        ]
+      ],
+      "core": [
+        "Always follow road signs."
+      ],
+      "reading": "Road signs give us information and help keep people safe."
+    }
+  },
+  {
+    "id": 74,
+    "title": "GOING TO SCHOOL",
+    "titleZh": "上學去",
+    "category": "交通與學校",
+    "image": "images/lesson-074.jpeg",
+    "content": {
+      "title": "GOING TO SCHOOL",
+      "titleZh": "上學去",
+      "vocabulary": [
+        [
+          "school",
+          "學校"
+        ],
+        [
+          "student",
+          "學生"
+        ],
+        [
+          "teacher",
+          "老師"
+        ],
+        [
+          "backpack",
+          "背包"
+        ],
+        [
+          "subject",
+          "科目"
+        ],
+        [
+          "class",
+          "課堂"
+        ],
+        [
+          "homework",
+          "家庭作業"
+        ],
+        [
+          "bus stop",
+          "公車站"
+        ],
+        [
+          "school bus",
+          "校車"
+        ],
+        [
+          "walk",
+          "走路"
+        ],
+        [
+          "bicycle",
+          "腳踏車"
+        ],
+        [
+          "safe",
+          "安全"
+        ]
+      ],
+      "core": [
+        "I go to school."
+      ],
+      "reading": "I get up, eat breakfast, go to the bus stop, have classes, and go home."
+    }
+  },
+  {
+    "id": 75,
+    "title": "AT SCHOOL",
+    "titleZh": "在學校",
+    "category": "交通與學校",
+    "image": "images/lesson-075.jpeg",
+    "content": {
+      "title": "AT SCHOOL",
+      "titleZh": "在學校",
+      "vocabulary": [
+        [
+          "classroom",
+          "教室"
+        ],
+        [
+          "desk",
+          "書桌"
+        ],
+        [
+          "chair",
+          "椅子"
+        ],
+        [
+          "blackboard",
+          "黑板"
+        ],
+        [
+          "book",
+          "書"
+        ],
+        [
+          "notebook",
+          "筆記本"
+        ],
+        [
+          "pencil",
+          "鉛筆"
+        ],
+        [
+          "eraser",
+          "橡皮擦"
+        ],
+        [
+          "pen",
+          "原子筆"
+        ],
+        [
+          "computer",
+          "電腦"
+        ],
+        [
+          "library",
+          "圖書館"
+        ],
+        [
+          "playground",
+          "遊樂場"
+        ]
+      ],
+      "core": [
+        "I am at school."
+      ],
+      "reading": "I learn many things, read books, play with friends, and do my homework after school."
+    }
+  },
+  {
+    "id": 76,
+    "title": "FAMILY TRIP",
+    "titleZh": "家庭旅行",
+    "category": "交通與學校",
+    "image": "images/lesson-076.jpeg",
+    "content": {
+      "title": "FAMILY TRIP",
+      "titleZh": "家庭旅行",
+      "vocabulary": [
+        [
+          "trip",
+          "旅行"
+        ],
+        [
+          "family",
+          "家人"
+        ],
+        [
+          "suitcase",
+          "行李箱"
+        ],
+        [
+          "camera",
+          "相機"
+        ],
+        [
+          "map",
+          "地圖"
+        ],
+        [
+          "ticket",
+          "票"
+        ],
+        [
+          "destination",
+          "目的地"
+        ],
+        [
+          "sightseeing",
+          "觀光"
+        ],
+        [
+          "hotel",
+          "飯店"
+        ],
+        [
+          "restaurant",
+          "餐廳"
+        ],
+        [
+          "souvenir",
+          "紀念品"
+        ],
+        [
+          "happy",
+          "快樂"
+        ]
+      ],
+      "core": [
+        "We are on a family trip."
+      ],
+      "reading": "We pack our bags, travel to our destination, go sightseeing, take photos, and buy souvenirs."
+    }
+  },
+  {
+    "id": 77,
+    "title": "AT THE AIRPORT",
+    "titleZh": "在機場",
+    "category": "交通與學校",
+    "image": "images/lesson-077.jpeg",
+    "content": {
+      "title": "AT THE AIRPORT",
+      "titleZh": "在機場",
+      "vocabulary": [
+        [
+          "airplane",
+          "飛機"
+        ],
+        [
+          "airport",
+          "機場"
+        ],
+        [
+          "check in",
+          "報到"
+        ],
+        [
+          "boarding pass",
+          "登機證"
+        ],
+        [
+          "passport",
+          "護照"
+        ],
+        [
+          "luggage",
+          "行李"
+        ],
+        [
+          "departure gate",
+          "登機門"
+        ],
+        [
+          "take off",
+          "起飛"
+        ],
+        [
+          "arrival",
+          "抵達"
+        ],
+        [
+          "baggage claim",
+          "行李提領處"
+        ]
+      ],
+      "core": [
+        "We are at the airport."
+      ],
+      "reading": "We check in, get our boarding passes, go through security, board the plane, and collect our luggage."
+    }
+  },
+  {
+    "id": 78,
+    "title": "CLASSROOM",
+    "titleZh": "教室",
+    "category": "交通與學校",
+    "image": "images/lesson-078.jpeg",
+    "content": {
+      "title": "CLASSROOM",
+      "titleZh": "教室",
+      "vocabulary": [
+        [
+          "classroom",
+          "教室"
+        ],
+        [
+          "student",
+          "學生"
+        ],
+        [
+          "teacher",
+          "老師"
+        ],
+        [
+          "desk",
+          "書桌"
+        ],
+        [
+          "chair",
+          "椅子"
+        ],
+        [
+          "whiteboard",
+          "白板"
+        ],
+        [
+          "book",
+          "書"
+        ],
+        [
+          "notebook",
+          "筆記本"
+        ],
+        [
+          "pencil",
+          "鉛筆"
+        ],
+        [
+          "eraser",
+          "橡皮擦"
+        ],
+        [
+          "backpack",
+          "背包"
+        ],
+        [
+          "clock",
+          "時鐘"
+        ]
+      ],
+      "core": [
+        "I study in my classroom."
+      ],
+      "reading": "My teacher writes on the whiteboard. I read, write, listen, and answer questions."
+    }
+  },
+  {
+    "id": 79,
+    "title": "TRANSPORTATION PROJECT",
+    "titleZh": "交通專題",
+    "category": "交通與學校",
+    "image": "images/lesson-079.jpeg",
+    "content": {
+      "title": "TRANSPORTATION PROJECT",
+      "titleZh": "交通專題",
+      "vocabulary": [
+        [
+          "transportation",
+          "交通"
+        ],
+        [
+          "vehicle",
+          "交通工具"
+        ],
+        [
+          "bus",
+          "公車"
+        ],
+        [
+          "train",
+          "火車"
+        ],
+        [
+          "airplane",
+          "飛機"
+        ],
+        [
+          "bicycle",
+          "腳踏車"
+        ],
+        [
+          "car",
+          "汽車"
+        ],
+        [
+          "boat",
+          "船"
+        ],
+        [
+          "road",
+          "道路"
+        ],
+        [
+          "traffic light",
+          "紅綠燈"
+        ],
+        [
+          "safe",
+          "安全"
+        ],
+        [
+          "environment",
+          "環境"
+        ]
+      ],
+      "core": [
+        "We are working on a transportation project."
+      ],
+      "reading": "We research transportation, make a poster, write a report, and present it to the class."
+    }
+  },
+  {
+    "id": 80,
+    "title": "USING PUBLIC TRANSPORTATION",
+    "titleZh": "搭乘大眾運輸",
+    "category": "交通與學校",
+    "image": "images/lesson-080.jpeg",
+    "content": {
+      "title": "USING PUBLIC TRANSPORTATION",
+      "titleZh": "搭乘大眾運輸",
+      "vocabulary": [
+        [
+          "bus",
+          "公車"
+        ],
+        [
+          "MRT",
+          "捷運"
+        ],
+        [
+          "train",
+          "火車"
+        ],
+        [
+          "fare",
+          "車資"
+        ],
+        [
+          "station",
+          "車站"
+        ],
+        [
+          "route",
+          "路線"
+        ],
+        [
+          "schedule",
+          "時刻表"
+        ],
+        [
+          "transfer",
+          "轉乘"
+        ],
+        [
+          "seat",
+          "座位"
+        ],
+        [
+          "priority seat",
+          "博愛座"
+        ],
+        [
+          "crowded",
+          "擁擠"
+        ],
+        [
+          "convenient",
+          "方便"
+        ]
+      ],
+      "core": [
+        "I take the bus or MRT to school."
+      ],
+      "reading": "I plan my trip, pay the fare, get on, listen for my stop, and transfer if needed."
+    }
+  },
+  {
+    "id": 81,
+    "title": "WEATHER",
+    "titleZh": "天氣",
+    "category": "自然世界",
+    "image": "images/lesson-081.jpeg",
+    "content": {
+      "title": "WEATHER",
+      "titleZh": "天氣",
+      "vocabulary": [
+        [
+          "sunny",
+          "晴朗"
+        ],
+        [
+          "cloudy",
+          "多雲"
+        ],
+        [
+          "rainy",
+          "下雨"
+        ],
+        [
+          "windy",
+          "有風"
+        ],
+        [
+          "snowy",
+          "下雪"
+        ],
+        [
+          "stormy",
+          "暴風雨"
+        ],
+        [
+          "foggy",
+          "有霧"
+        ],
+        [
+          "hot",
+          "炎熱"
+        ],
+        [
+          "warm",
+          "溫暖"
+        ],
+        [
+          "cool",
+          "涼爽"
+        ],
+        [
+          "cold",
+          "寒冷"
+        ],
+        [
+          "degrees",
+          "度"
+        ]
+      ],
+      "core": [
+        "What's the weather like today?"
+      ],
+      "reading": "We use words such as sunny, cloudy, rainy, windy, hot, and cold to describe the weather."
+    }
+  },
+  {
+    "id": 82,
+    "title": "SEASONS",
+    "titleZh": "季節",
+    "category": "自然世界",
+    "image": "images/lesson-082.jpeg",
+    "content": {
+      "title": "SEASONS",
+      "titleZh": "季節",
+      "vocabulary": [
+        [
+          "spring",
+          "春天"
+        ],
+        [
+          "summer",
+          "夏天"
+        ],
+        [
+          "fall",
+          "秋天"
+        ],
+        [
+          "winter",
+          "冬天"
+        ],
+        [
+          "season",
+          "季節"
+        ],
+        [
+          "warm",
+          "溫暖"
+        ],
+        [
+          "hot",
+          "炎熱"
+        ],
+        [
+          "cool",
+          "涼爽"
+        ],
+        [
+          "cold",
+          "寒冷"
+        ],
+        [
+          "rainy",
+          "下雨"
+        ],
+        [
+          "snowy",
+          "下雪"
+        ],
+        [
+          "windy",
+          "有風"
+        ]
+      ],
+      "core": [
+        "What's your favorite season?"
+      ],
+      "reading": "There are four seasons in a year. Each season has different weather and activities."
+    }
+  },
+  {
+    "id": 83,
+    "title": "MOUNTAINS",
+    "titleZh": "山脈",
+    "category": "自然世界",
+    "image": "images/lesson-083.jpeg",
+    "content": {
+      "title": "MOUNTAINS",
+      "titleZh": "山脈",
+      "vocabulary": [
+        [
+          "mountain",
+          "山"
+        ],
+        [
+          "peak",
+          "山峰"
+        ],
+        [
+          "valley",
+          "山谷"
+        ],
+        [
+          "forest",
+          "森林"
+        ],
+        [
+          "river",
+          "河流"
+        ],
+        [
+          "trail",
+          "步道"
+        ],
+        [
+          "rock",
+          "岩石"
+        ],
+        [
+          "camping",
+          "露營"
+        ],
+        [
+          "hiking",
+          "健行"
+        ],
+        [
+          "view",
+          "風景"
+        ],
+        [
+          "wildlife",
+          "野生動物"
+        ],
+        [
+          "climb",
+          "攀爬"
+        ]
+      ],
+      "core": [
+        "What do you like about mountains?"
+      ],
+      "reading": "We hike on trails, enjoy the view, and protect the mountains by taking our trash with us."
+    }
+  },
+  {
+    "id": 84,
+    "title": "THE OCEAN",
+    "titleZh": "海洋",
+    "category": "自然世界",
+    "image": "images/lesson-084.jpeg",
+    "content": {
+      "title": "THE OCEAN",
+      "titleZh": "海洋",
+      "vocabulary": [
+        [
+          "wave",
+          "海浪"
+        ],
+        [
+          "ocean",
+          "海洋"
+        ],
+        [
+          "beach",
+          "海灘"
+        ],
+        [
+          "island",
+          "島嶼"
+        ],
+        [
+          "coral",
+          "珊瑚"
+        ],
+        [
+          "fish",
+          "魚"
+        ],
+        [
+          "whale",
+          "鯨魚"
+        ],
+        [
+          "turtle",
+          "海龜"
+        ],
+        [
+          "dolphin",
+          "海豚"
+        ],
+        [
+          "seaweed",
+          "海藻"
+        ],
+        [
+          "shell",
+          "貝殼"
+        ],
+        [
+          "lighthouse",
+          "燈塔"
+        ]
+      ],
+      "core": [
+        "Why is the ocean important?"
+      ],
+      "reading": "The ocean gives us food, oxygen, and many resources. We must keep it clean."
+    }
+  },
+  {
+    "id": 85,
+    "title": "CITIES AND TOWNS",
+    "titleZh": "城市和城鎮",
+    "category": "自然世界",
+    "image": "images/lesson-085.jpeg",
+    "content": {
+      "title": "CITIES AND TOWNS",
+      "titleZh": "城市和城鎮",
+      "vocabulary": [
+        [
+          "city",
+          "城市"
+        ],
+        [
+          "town",
+          "城鎮"
+        ],
+        [
+          "building",
+          "建築物"
+        ],
+        [
+          "park",
+          ""
+        ],
+        [
+          "street",
+          "街道"
+        ],
+        [
+          "bridge",
+          "橋"
+        ],
+        [
+          "store",
+          "商店"
+        ],
+        [
+          "restaurant",
+          "餐廳"
+        ],
+        [
+          "school",
+          "學校"
+        ],
+        [
+          "hospital",
+          "醫院"
+        ],
+        [
+          "library",
+          "圖書館"
+        ],
+        [
+          "museum",
+          "博物館"
+        ]
+      ],
+      "core": [
+        "What do you like about your city?"
+      ],
+      "reading": "Cities and towns are places where people live, work, learn, and have fun."
+    }
+  },
+  {
+    "id": 86,
+    "title": "FOREST",
+    "titleZh": "森林",
+    "category": "自然世界",
+    "image": "images/lesson-086.jpeg",
+    "content": {
+      "title": "FOREST",
+      "titleZh": "森林",
+      "vocabulary": [
+        [
+          "forest",
+          "森林"
+        ],
+        [
+          "tree",
+          "樹"
+        ],
+        [
+          "plant",
+          "植物"
+        ],
+        [
+          "animal",
+          "動物"
+        ],
+        [
+          "leaf",
+          "葉子"
+        ],
+        [
+          "branch",
+          "樹枝"
+        ],
+        [
+          "root",
+          "根"
+        ],
+        [
+          "river",
+          "河流"
+        ],
+        [
+          "soil",
+          "土壤"
+        ],
+        [
+          "oxygen",
+          "氧氣"
+        ],
+        [
+          "resource",
+          "資源"
+        ],
+        [
+          "protect",
+          "保護"
+        ]
+      ],
+      "core": [
+        "Why are forests important?"
+      ],
+      "reading": "Forests give us clean air, water, resources, and homes for animals."
+    }
+  },
+  {
+    "id": 87,
+    "title": "FARM",
+    "titleZh": "農場",
+    "category": "自然世界",
+    "image": "images/lesson-087.jpeg",
+    "content": {
+      "title": "FARM",
+      "titleZh": "農場",
+      "vocabulary": [
+        [
+          "farm",
+          "農場"
+        ],
+        [
+          "farmer",
+          "農夫"
+        ],
+        [
+          "barn",
+          "穀倉"
+        ],
+        [
+          "field",
+          "田地"
+        ],
+        [
+          "crop",
+          "農作物"
+        ],
+        [
+          "animal",
+          "動物"
+        ],
+        [
+          "cow",
+          "牛"
+        ],
+        [
+          "pig",
+          "豬"
+        ],
+        [
+          "chicken",
+          "雞"
+        ],
+        [
+          "milk",
+          "牛奶"
+        ],
+        [
+          "egg",
+          "雞蛋"
+        ],
+        [
+          "tractor",
+          "拖拉機"
+        ]
+      ],
+      "core": [
+        "What do you like about farms?"
+      ],
+      "reading": "Farms grow crops, raise animals, and give us fresh food."
+    }
+  },
+  {
+    "id": 88,
+    "title": "WILD ANIMALS",
+    "titleZh": "野生動物",
+    "category": "自然世界",
+    "image": "images/lesson-088.jpeg",
+    "content": {
+      "title": "WILD ANIMALS",
+      "titleZh": "野生動物",
+      "vocabulary": [
+        [
+          "lion",
+          "獅子"
+        ],
+        [
+          "tiger",
+          "老虎"
+        ],
+        [
+          "elephant",
+          "大象"
+        ],
+        [
+          "giraffe",
+          "長頸鹿"
+        ],
+        [
+          "zebra",
+          "斑馬"
+        ],
+        [
+          "bear",
+          "熊"
+        ],
+        [
+          "wolf",
+          "狼"
+        ],
+        [
+          "monkey",
+          "猴子"
+        ],
+        [
+          "deer",
+          "鹿"
+        ],
+        [
+          "fox",
+          "狐狸"
+        ],
+        [
+          "crocodile",
+          "鱷魚"
+        ],
+        [
+          "rhinoceros",
+          "犀牛"
+        ]
+      ],
+      "core": [
+        "Why are wild animals important?"
+      ],
+      "reading": "Wild animals keep nature in balance. We must protect them and their homes."
+    }
+  },
+  {
+    "id": 89,
+    "title": "PLANTS",
+    "titleZh": "植物",
+    "category": "自然世界",
+    "image": "images/lesson-089.jpeg",
+    "content": {
+      "title": "PLANTS",
+      "titleZh": "植物",
+      "vocabulary": [
+        [
+          "plant",
+          "植物"
+        ],
+        [
+          "tree",
+          "樹"
+        ],
+        [
+          "flower",
+          "花"
+        ],
+        [
+          "leaf",
+          "葉子"
+        ],
+        [
+          "stem",
+          "莖"
+        ],
+        [
+          "root",
+          "根"
+        ],
+        [
+          "seed",
+          "種子"
+        ],
+        [
+          "fruit",
+          "水果"
+        ],
+        [
+          "bush",
+          "灌木"
+        ],
+        [
+          "grass",
+          "草"
+        ],
+        [
+          "vine",
+          "藤蔓"
+        ],
+        [
+          "cactus",
+          "仙人掌"
+        ]
+      ],
+      "core": [
+        "Why are plants important?"
+      ],
+      "reading": "Plants need sunlight and water. They give us food and oxygen."
+    }
+  },
+  {
+    "id": 90,
+    "title": "NATURE REVIEW",
+    "titleZh": "自然總複習",
+    "category": "自然世界",
+    "image": "images/lesson-090.jpeg",
+    "content": {
+      "title": "NATURE REVIEW",
+      "titleZh": "自然總複習",
+      "vocabulary": [
+        [
+          "weather",
+          ""
+        ],
+        [
+          "season",
+          "季節"
+        ],
+        [
+          "mountain",
+          "山"
+        ],
+        [
+          "forest",
+          "森林"
+        ],
+        [
+          "river",
+          "河流"
+        ],
+        [
+          "lake",
+          "湖"
+        ],
+        [
+          "farm",
+          "農場"
+        ],
+        [
+          "wild animal",
+          "野生動物"
+        ],
+        [
+          "plant",
+          "植物"
+        ],
+        [
+          "tree",
+          "樹"
+        ],
+        [
+          "flower",
+          "花"
+        ],
+        [
+          "environment",
+          "環境"
+        ]
+      ],
+      "core": [
+        "Why is nature important?"
+      ],
+      "reading": "Nature gives us life, food, clean air, water, and beautiful places."
+    }
+  },
+  {
+    "id": 91,
+    "title": "EARTH",
+    "titleZh": "地球",
+    "category": "世界與未來",
+    "image": "images/lesson-091.png",
+    "content": {
+      "title": "EARTH",
+      "titleZh": "地球",
+      "vocabulary": [
+        [
+          "weather",
+          "天氣"
+        ],
+        [
+          "planet",
+          "星球"
+        ],
+        [
+          "land",
+          "陸地"
+        ],
+        [
+          "ocean",
+          "海洋"
+        ],
+        [
+          "atmosphere",
+          "大氣層"
+        ],
+        [
+          "life",
+          "生命"
+        ],
+        [
+          "air",
+          "空氣"
+        ],
+        [
+          "water",
+          "水"
+        ],
+        [
+          "resources",
+          "資源"
+        ],
+        [
+          "environment",
+          "環境"
+        ],
+        [
+          "protect",
+          "保護"
+        ],
+        [
+          "recycle",
+          "回收利用"
+        ]
+      ],
+      "core": [
+        "Why is Earth important?",
+        "Earth gives us life, air, water, and many resources."
+      ],
+      "reading": "Earth is our home. It is the third planet from the sun. It has land, oceans, mountains, and forests. It has air for us to breathe and water for us to drink. We must keep Earth clean and protect it for our future."
+    }
+  },
+  {
+    "id": 92,
+    "title": "CONTINENTS",
+    "titleZh": "大陸",
+    "category": "世界與未來",
+    "image": "images/lesson-092.jpeg",
+    "content": {
+      "title": "CONTINENTS",
+      "titleZh": "大陸",
+      "vocabulary": [
+        [
+          "continent",
+          "大陸"
+        ],
+        [
+          "Asia",
+          "亞洲"
+        ],
+        [
+          "Africa",
+          "非洲"
+        ],
+        [
+          "North America",
+          "北美洲"
+        ],
+        [
+          "South America",
+          "南美洲"
+        ],
+        [
+          "Antarctica",
+          "南極洲"
+        ],
+        [
+          "Europe",
+          "歐洲"
+        ],
+        [
+          "Australia",
+          "大洋洲"
+        ],
+        [
+          "ocean",
+          "海洋"
+        ],
+        [
+          "country",
+          "國家"
+        ],
+        [
+          "world",
+          "世界"
+        ]
+      ],
+      "core": [
+        "What are the seven continents?",
+        "They are Asia, Africa, North America, South America, Antarctica, Europe, and Australia."
+      ],
+      "reading": "We live on Earth. Earth has seven continents. Each continent is special. People live, work, and play in many places. We are all part of one world."
+    }
+  },
+  {
+    "id": 93,
+    "title": "COUNTRIES",
+    "titleZh": "國家",
+    "category": "世界與未來",
+    "image": "images/lesson-093.jpeg",
+    "content": {
+      "title": "COUNTRIES",
+      "titleZh": "國家",
+      "vocabulary": [
+        [
+          "country",
+          "國家"
+        ],
+        [
+          "people",
+          "人民"
+        ],
+        [
+          "culture",
+          "文化"
+        ],
+        [
+          "language",
+          "語言"
+        ],
+        [
+          "flag",
+          "國旗"
+        ],
+        [
+          "capital",
+          "首都"
+        ],
+        [
+          "famous",
+          "著名的"
+        ],
+        [
+          "beautiful",
+          "美麗的"
+        ],
+        [
+          "map",
+          "地圖"
+        ],
+        [
+          "visit",
+          "訪問"
+        ],
+        [
+          "learn",
+          "學習"
+        ],
+        [
+          "respect",
+          "尊重"
+        ]
+      ],
+      "core": [
+        "Why are countries important?",
+        "Countries give us culture, history, and opportunities."
+      ],
+      "reading": "There are many countries in the world. Each country has its own people, culture, and beauty. We can learn from each other and be friends. Let’s respect every country."
+    }
+  },
+  {
+    "id": 94,
+    "title": "CITIES",
+    "titleZh": "城市",
+    "category": "世界與未來",
+    "image": "images/lesson-094.jpeg",
+    "content": {
+      "title": "CITIES",
+      "titleZh": "城市",
+      "vocabulary": [
+        [
+          "city",
+          "城市"
+        ],
+        [
+          "buildings",
+          "建築物"
+        ],
+        [
+          "people",
+          "人們"
+        ],
+        [
+          "traffic",
+          "交通"
+        ],
+        [
+          "park",
+          "公園"
+        ],
+        [
+          "school",
+          "學校"
+        ],
+        [
+          "hospital",
+          "醫院"
+        ],
+        [
+          "bus",
+          "公車"
+        ],
+        [
+          "bridge",
+          "橋樑"
+        ],
+        [
+          "clean",
+          "乾淨的"
+        ],
+        [
+          "safe",
+          "安全的"
+        ],
+        [
+          "important",
+          "重要的"
+        ]
+      ],
+      "core": [
+        "Why are cities important?",
+        "Cities give us jobs, services, culture, and many opportunities."
+      ],
+      "reading": "I live in a big city. My city has many tall buildings, parks, schools, and stores. We keep it clean and safe for everyone."
+    }
+  },
+  {
+    "id": 95,
+    "title": "CULTURES",
+    "titleZh": "文化",
+    "category": "世界與未來",
+    "image": "images/lesson-095.jpeg",
+    "content": {
+      "title": "CULTURES",
+      "titleZh": "文化",
+      "vocabulary": [
+        [
+          "culture",
+          "文化"
+        ],
+        [
+          "tradition",
+          "傳統"
+        ],
+        [
+          "language",
+          "語言"
+        ],
+        [
+          "food",
+          "食物"
+        ],
+        [
+          "festival",
+          "節慶"
+        ],
+        [
+          "music",
+          "音樂"
+        ],
+        [
+          "dance",
+          "舞蹈"
+        ],
+        [
+          "art",
+          "藝術"
+        ],
+        [
+          "custom",
+          "習俗"
+        ],
+        [
+          "respect",
+          "尊重"
+        ],
+        [
+          "people",
+          "人們"
+        ],
+        [
+          "diversity",
+          "多樣性"
+        ]
+      ],
+      "core": [
+        "Why are cultures important?",
+        "Cultures help us understand each other and make the world a more colorful and peaceful place."
+      ],
+      "reading": "The world is full of different cultures. Each culture has its own languages, food, clothes, music, art, and traditions. Let’s be open-minded and respect every culture."
+    }
+  },
+  {
+    "id": 96,
+    "title": "LANGUAGES",
+    "titleZh": "語言",
+    "category": "世界與未來",
+    "image": "images/lesson-096.png",
+    "content": {
+      "title": "LANGUAGES",
+      "titleZh": "語言",
+      "vocabulary": [
+        [
+          "language",
+          "語言"
+        ],
+        [
+          "speak",
+          "說"
+        ],
+        [
+          "listen",
+          "聽"
+        ],
+        [
+          "read",
+          "閱讀"
+        ],
+        [
+          "write",
+          "書寫"
+        ],
+        [
+          "word",
+          "單字"
+        ],
+        [
+          "sentence",
+          "句子"
+        ],
+        [
+          "question",
+          "問題"
+        ],
+        [
+          "answer",
+          "回答"
+        ],
+        [
+          "translation",
+          "翻譯"
+        ],
+        [
+          "communicate",
+          "溝通"
+        ],
+        [
+          "understand",
+          "了解"
+        ]
+      ],
+      "core": [
+        "What languages do you speak?",
+        "I speak Chinese and a little English."
+      ],
+      "reading": "I speak Chinese at home. I am learning English at school. I practice listening, speaking, reading, and writing. Languages connect people around the world."
+    }
+  },
+  {
+    "id": 97,
+    "title": "PROTECT THE EARTH",
+    "titleZh": "保護地球",
+    "category": "世界與未來",
+    "image": "images/lesson-097.png",
+    "content": {
+      "title": "PROTECT THE EARTH",
+      "titleZh": "保護地球",
+      "vocabulary": [
+        [
+          "Earth",
+          "地球"
+        ],
+        [
+          "environment",
+          "環境"
+        ],
+        [
+          "pollution",
+          "污染"
+        ],
+        [
+          "air",
+          "空氣"
+        ],
+        [
+          "water",
+          "水"
+        ],
+        [
+          "recycle",
+          "回收"
+        ],
+        [
+          "energy",
+          "能源"
+        ],
+        [
+          "reduce",
+          "減少"
+        ],
+        [
+          "reuse",
+          "重複使用"
+        ],
+        [
+          "protect",
+          "保護"
+        ],
+        [
+          "plant",
+          "植樹"
+        ],
+        [
+          "save",
+          "節約"
+        ],
+        [
+          "future",
+          "未來"
+        ]
+      ],
+      "core": [
+        "Why do we need to protect the Earth?",
+        "We need clean air, clean water, and a healthy environment to live happy and healthy lives."
+      ],
+      "reading": "The Earth gives us air to breathe, water to drink, and food to eat. We can all help protect the Earth by making small changes every day."
+    }
+  },
+  {
+    "id": 98,
+    "title": "RECYCLING",
+    "titleZh": "回收再利用",
+    "category": "世界與未來",
+    "image": "images/lesson-098.png",
+    "content": {
+      "title": "RECYCLING",
+      "titleZh": "回收再利用",
+      "vocabulary": [
+        [
+          "recycle",
+          "回收再利用"
+        ],
+        [
+          "paper",
+          "紙"
+        ],
+        [
+          "plastic",
+          "塑膠"
+        ],
+        [
+          "glass",
+          "玻璃"
+        ],
+        [
+          "metal",
+          "金屬"
+        ],
+        [
+          "waste",
+          "垃圾"
+        ],
+        [
+          "bin",
+          "垃圾桶"
+        ],
+        [
+          "sort",
+          "分類"
+        ],
+        [
+          "reuse",
+          "再利用"
+        ],
+        [
+          "reduce",
+          "減少"
+        ],
+        [
+          "environment",
+          "環境"
+        ],
+        [
+          "protect",
+          "保護"
+        ]
+      ],
+      "core": [
+        "Why is recycling important?",
+        "Recycling helps save resources, reduce pollution, and keep our Earth clean."
+      ],
+      "reading": "Our Earth has many resources, but some of them are limited. Recycling helps save energy and reduce pollution. Small actions can make a big difference."
+    }
+  },
+  {
+    "id": 99,
+    "title": "MY FUTURE WORLD",
+    "titleZh": "我未來的世界",
+    "category": "世界與未來",
+    "image": "images/lesson-099.png",
+    "content": {
+      "title": "MY FUTURE WORLD",
+      "titleZh": "我未來的世界",
+      "vocabulary": [
+        [
+          "future",
+          "未來"
+        ],
+        [
+          "dream",
+          "夢想"
+        ],
+        [
+          "safe",
+          "安全的"
+        ],
+        [
+          "clean",
+          "乾淨的"
+        ],
+        [
+          "happy",
+          "快樂的"
+        ],
+        [
+          "healthy",
+          "健康的"
+        ],
+        [
+          "technology",
+          "科技"
+        ],
+        [
+          "green",
+          "綠色的"
+        ],
+        [
+          "energy",
+          "能源"
+        ],
+        [
+          "planet",
+          "星球"
+        ],
+        [
+          "idea",
+          "想法"
+        ],
+        [
+          "together",
+          "一起"
+        ]
+      ],
+      "core": [
+        "What kind of future do you want?",
+        "I want a clean, safe, and happy future for everyone."
+      ],
+      "reading": "The future is full of possibilities. We can make good choices today to create a better tomorrow. Let’s work together to build a world that is safe, healthy, and happy for everyone."
+    }
+  },
+  {
+    "id": 100,
+    "title": "FINAL REVIEW",
+    "titleZh": "總複習",
+    "category": "世界與未來",
+    "image": "images/lesson-100.png",
+    "content": {
+      "title": "FINAL REVIEW",
+      "titleZh": "總複習",
+      "vocabulary": [
+        [
+          "continent",
+          "大陸"
+        ],
+        [
+          "culture",
+          "文化"
+        ],
+        [
+          "landmark",
+          "地標"
+        ],
+        [
+          "recycle",
+          "回收"
+        ],
+        [
+          "environment",
+          "環境"
+        ],
+        [
+          "energy",
+          "能源"
+        ],
+        [
+          "city",
+          "城市"
+        ],
+        [
+          "country",
+          "國家"
+        ],
+        [
+          "language",
+          "語言"
+        ],
+        [
+          "future",
+          "未來"
+        ],
+        [
+          "protect",
+          "保護"
+        ]
+      ],
+      "core": [
+        "What have we learned?",
+        "We have learned many things about our world."
+      ],
+      "reading": "Let’s review what we have learned. Knowledge helps us understand the world and make it a better place for everyone. Let’s keep learning and make a difference!"
+    }
+  }
+]

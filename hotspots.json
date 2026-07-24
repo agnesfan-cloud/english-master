@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "coordinateSystem": "percent",
+  "instructions": "x, y, width, and height are percentages of the displayed image.",
+  "lessons": {
+    "1": [
+      {
+        "id": "wake-up",
+        "en": "Wake up",
+        "zh": "起床",
+        "x": 4.25,
+        "y": 95.1,
+        "width": 10.15,
+        "height": 2.65
+      },
+      {
+        "id": "bed",
+        "en": "Bed",
+        "zh": "床",
+        "x": 49.55,
+        "y": 90.65,
+        "width": 2.35,
+        "height": 2.15
+      },
+      {
+        "id": "pillow",
+        "en": "Pillow",
+        "zh": "枕頭",
+        "x": 23.45,
+        "y": 39.2,
+        "width": 5.25,
+        "height": 2.55
+      },
+      {
+        "id": "blanket",
+        "en": "Blanket",
+        "zh": "棉被",
+        "x": 49.45,
+        "y": 59.15,
+        "width": 5.1,
+        "height": 2.55
+      },
+      {
+        "id": "lamp",
+        "en": "Lamp",
+        "zh": "檯燈",
+        "x": 17.25,
+        "y": 49.65,
+        "width": 4.25,
+        "height": 2.55
+      }
+    ]
+  }
+}
