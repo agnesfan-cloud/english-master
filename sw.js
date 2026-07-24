@@ -1,10 +1,10 @@
-const CACHE = 'english-master-v10-clean-learning';
+const CACHE = 'english-master-v11-ipad-audio-hotspot-fix';
 const CORE = [
   './',
   './index.html',
   './style.css',
   './hotspot-v6.css',
-  './app.js',
+  './app.js?v=11',
   './lessons.json',
   './hotspots.json',
   './manifest.webmanifest'

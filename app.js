@@ -5,28 +5,25 @@ const state={completed:new Set(JSON.parse(localStorage.getItem('em_completed')||
 if(state.dark)document.body.classList.add('dark');
 
 function save(){localStorage.setItem('em_completed',JSON.stringify([...state.completed]));localStorage.setItem('em_favorites',JSON.stringify([...state.favorites]));}
-let speechTimer=null;
 function speak(text,rate=.88){
   const synth=window.speechSynthesis;
   if(!synth)return alert('此瀏覽器不支援語音朗讀。');
   const phrase=String(text||'').trim();
   if(!phrase)return;
-  clearTimeout(speechTimer);
   synth.cancel();
-  speechTimer=setTimeout(()=>{
-    const u=new SpeechSynthesisUtterance(phrase);
-    const voices=synth.getVoices();
-    u.lang='en-US';
-    u.rate=rate;
-    u.pitch=1;
-    u.volume=1;
-    u.voice=voices.find(v=>v.lang==='en-US'&&/Samantha|Ava|Siri/i.test(v.name))
-      ||voices.find(v=>v.lang==='en-US')
-      ||voices.find(v=>v.lang.startsWith('en-US'))
-      ||null;
-    synth.resume();
-    synth.speak(u);
-  },80);
+  const u=new SpeechSynthesisUtterance(phrase);
+  const voices=synth.getVoices();
+  u.lang='en-US';
+  u.rate=rate;
+  u.pitch=1;
+  u.volume=1;
+  u.voice=voices.find(v=>v.lang==='en-US'&&/Samantha|Ava|Siri/i.test(v.name))
+    ||voices.find(v=>v.lang==='en-US')
+    ||voices.find(v=>v.lang.startsWith('en-US'))
+    ||null;
+  // iPad Safari requires speech to begin synchronously inside the tap event.
+  if(synth.paused)synth.resume();
+  synth.speak(u);
 }
 function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));}
 function filtered(){return lessons.filter(l=>{const t=`${l.id} ${l.title} ${l.titleZh}`.toLowerCase();return t.includes(state.query.toLowerCase())&&(state.category==='全部'||l.category===state.category)&&(!state.favOnly||state.favorites.has(l.id));});}
@@ -36,7 +33,7 @@ function toggleFav(id){state.favorites.has(id)?state.favorites.delete(id):state.
 function toggleDone(id){state.completed.has(id)?state.completed.delete(id):state.completed.add(id);save();render();updateDoneBtn();}
 function updateDoneBtn(){$('#markDone').textContent=state.completed.has(state.current)?'取消完成':'標記完成';}
 
-function hotspotStorageKey(id){return `em_hotspots_v8_${id}`;}
+function hotspotStorageKey(id){return `em_hotspots_v11_${id}`;}
 function getHotspots(id){const saved=JSON.parse(localStorage.getItem(hotspotStorageKey(id))||'null');return saved||hotspotData.lessons[String(id)]||[];}
 function clone(v){return JSON.parse(JSON.stringify(v));}
 function pushHistory(id){state.history.push({id,list:clone(getHotspots(id))});if(state.history.length>30)state.history.shift();}
@@ -52,11 +49,11 @@ function bindHotspotUI(l){
   stage.querySelectorAll('.hotspot').forEach(btn=>{
     let timer=null,longPressed=false,cancelled=false,startPoint=null;
     const index=Number(btn.dataset.index);
-    const start=e=>{e.preventDefault();if(state.editing){beginHotspotEdit(e,l,index,btn,stage);return;}longPressed=false;cancelled=false;startPoint={x:e.clientX,y:e.clientY};timer=setTimeout(()=>{longPressed=true;btn.classList.add('pressed');showTranslation(getHotspots(l.id)[index],btn);},520);};
+    const start=e=>{e.preventDefault();if(state.editing){beginHotspotEdit(e,l,index,btn,stage);return;}longPressed=false;cancelled=false;startPoint={x:e.clientX,y:e.clientY};btn.setPointerCapture?.(e.pointerId);timer=setTimeout(()=>{longPressed=true;btn.classList.add('pressed');showTranslation(getHotspots(l.id)[index],btn);},520);};
     const move=e=>{if(startPoint&&Math.hypot(e.clientX-startPoint.x,e.clientY-startPoint.y)>8){cancelled=true;if(timer)clearTimeout(timer);}};
-    const end=()=>{if(timer)clearTimeout(timer);btn.classList.remove('pressed');if(!state.editing&&!longPressed&&!cancelled){btn.classList.remove('activated');void btn.offsetWidth;btn.classList.add('activated');speak(getHotspots(l.id)[index].en);}startPoint=null;};
+    const end=e=>{if(timer)clearTimeout(timer);btn.classList.remove('pressed');if(!state.editing&&!longPressed&&!cancelled){btn.classList.remove('activated');void btn.offsetWidth;btn.classList.add('activated');speak(getHotspots(l.id)[index].en);}btn.releasePointerCapture?.(e.pointerId);startPoint=null;};
     const cancel=()=>{if(timer)clearTimeout(timer);cancelled=true;};
-    btn.addEventListener('pointerdown',start);btn.addEventListener('pointermove',move);btn.addEventListener('pointerup',end);btn.addEventListener('pointercancel',cancel);btn.addEventListener('pointerleave',cancel);btn.addEventListener('contextmenu',e=>e.preventDefault());btn.addEventListener('touchstart',e=>e.preventDefault(),{passive:false});btn.addEventListener('selectstart',e=>e.preventDefault());
+    btn.addEventListener('pointerdown',start);btn.addEventListener('pointermove',move);btn.addEventListener('pointerup',end);btn.addEventListener('pointercancel',cancel);btn.addEventListener('contextmenu',e=>e.preventDefault());btn.addEventListener('selectstart',e=>e.preventDefault());
   });
   if(!state.editing)return;
   let start=null,draft=null;
