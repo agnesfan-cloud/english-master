@@ -1,5 +1,6 @@
 let lessons=[];
 let hotspotData={version:1,lessons:{}};
+let activeUtterances=[];
 const $=s=>document.querySelector(s);
 const state={completed:new Set(JSON.parse(localStorage.getItem('em_completed')||'[]')),favorites:new Set(JSON.parse(localStorage.getItem('em_favorites')||'[]')),favOnly:false,category:'全部',query:'',current:1,dark:localStorage.getItem('em_theme')==='dark',editing:false,selectedHotspot:null,showHotspots:true,history:[]};
 if(state.dark)document.body.classList.add('dark');
@@ -10,20 +11,33 @@ function speak(text,rate=.88){
   if(!synth)return alert('此瀏覽器不支援語音朗讀。');
   const phrase=String(text||'').trim();
   if(!phrase)return;
-  synth.cancel();
-  const u=new SpeechSynthesisUtterance(phrase);
   const voices=synth.getVoices();
-  u.lang='en-US';
-  u.rate=rate;
-  u.pitch=1;
-  u.volume=1;
-  u.voice=voices.find(v=>v.lang==='en-US'&&/Samantha|Ava|Siri/i.test(v.name))
+  const voice=voices.find(v=>v.lang==='en-US'&&/Samantha|Ava|Siri/i.test(v.name))
     ||voices.find(v=>v.lang==='en-US')
     ||voices.find(v=>v.lang.startsWith('en-US'))
     ||null;
-  // iPad Safari requires speech to begin synchronously inside the tap event.
+  // Keep utterances alive until completion. WebKit can silently discard
+  // locally scoped utterances, especially for a full paragraph.
+  activeUtterances=[];
+  if(synth.speaking||synth.pending)synth.cancel();
   if(synth.paused)synth.resume();
-  synth.speak(u);
+  const parts=phrase.length>120
+    ? (phrase.match(/[^.!?]+[.!?]+|[^.!?]+$/g)||[phrase]).map(s=>s.trim()).filter(Boolean)
+    : [phrase];
+  parts.forEach((part,index)=>{
+    const u=new SpeechSynthesisUtterance(part);
+    u.lang='en-US';
+    u.rate=rate;
+    u.pitch=1;
+    u.volume=1;
+    u.voice=voice;
+    u.onend=u.onerror=()=>{
+      activeUtterances[index]=null;
+      if(activeUtterances.every(item=>item===null))activeUtterances=[];
+    };
+    activeUtterances.push(u);
+    synth.speak(u);
+  });
 }
 function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));}
 function filtered(){return lessons.filter(l=>{const t=`${l.id} ${l.title} ${l.titleZh}`.toLowerCase();return t.includes(state.query.toLowerCase())&&(state.category==='全部'||l.category===state.category)&&(!state.favOnly||state.favorites.has(l.id));});}
@@ -33,7 +47,7 @@ function toggleFav(id){state.favorites.has(id)?state.favorites.delete(id):state.
 function toggleDone(id){state.completed.has(id)?state.completed.delete(id):state.completed.add(id);save();render();updateDoneBtn();}
 function updateDoneBtn(){$('#markDone').textContent=state.completed.has(state.current)?'取消完成':'標記完成';}
 
-function hotspotStorageKey(id){return `em_hotspots_v11_${id}`;}
+function hotspotStorageKey(id){return `em_hotspots_v12_${id}`;}
 function getHotspots(id){const saved=JSON.parse(localStorage.getItem(hotspotStorageKey(id))||'null');return saved||hotspotData.lessons[String(id)]||[];}
 function clone(v){return JSON.parse(JSON.stringify(v));}
 function pushHistory(id){state.history.push({id,list:clone(getHotspots(id))});if(state.history.length>30)state.history.shift();}

@@ -185,7 +185,25 @@
         "height": 5.0
       },
       {
-        "id": "stretch",
+        "id": "stretch-main",
+        "en": "Stretch",
+        "zh": "伸懶腰",
+        "x": 44.0,
+        "y": 34.0,
+        "width": 9.0,
+        "height": 8.0
+      },
+      {
+        "id": "yawn-main",
+        "en": "Yawn",
+        "zh": "打哈欠",
+        "x": 30.0,
+        "y": 13.0,
+        "width": 8.0,
+        "height": 8.0
+      },
+      {
+        "id": "stretch-action",
         "en": "Stretch",
         "zh": "伸懶腰",
         "x": 14.0,
@@ -194,7 +212,7 @@
         "height": 10.0
       },
       {
-        "id": "yawn",
+        "id": "yawn-action",
         "en": "Yawn",
         "zh": "打哈欠",
         "x": 29.5,
