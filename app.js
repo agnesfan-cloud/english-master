@@ -5,7 +5,29 @@ const state={completed:new Set(JSON.parse(localStorage.getItem('em_completed')||
 if(state.dark)document.body.classList.add('dark');
 
 function save(){localStorage.setItem('em_completed',JSON.stringify([...state.completed]));localStorage.setItem('em_favorites',JSON.stringify([...state.favorites]));}
-function speak(text,rate=.88){if(!('speechSynthesis'in window))return alert('此瀏覽器不支援語音朗讀。');speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=rate;const voices=speechSynthesis.getVoices();u.voice=voices.find(v=>v.lang==='en-US')||voices.find(v=>v.lang.startsWith('en-US'))||null;speechSynthesis.speak(u);}
+let speechTimer=null;
+function speak(text,rate=.88){
+  const synth=window.speechSynthesis;
+  if(!synth)return alert('此瀏覽器不支援語音朗讀。');
+  const phrase=String(text||'').trim();
+  if(!phrase)return;
+  clearTimeout(speechTimer);
+  synth.cancel();
+  speechTimer=setTimeout(()=>{
+    const u=new SpeechSynthesisUtterance(phrase);
+    const voices=synth.getVoices();
+    u.lang='en-US';
+    u.rate=rate;
+    u.pitch=1;
+    u.volume=1;
+    u.voice=voices.find(v=>v.lang==='en-US'&&/Samantha|Ava|Siri/i.test(v.name))
+      ||voices.find(v=>v.lang==='en-US')
+      ||voices.find(v=>v.lang.startsWith('en-US'))
+      ||null;
+    synth.resume();
+    synth.speak(u);
+  },80);
+}
 function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));}
 function filtered(){return lessons.filter(l=>{const t=`${l.id} ${l.title} ${l.titleZh}`.toLowerCase();return t.includes(state.query.toLowerCase())&&(state.category==='全部'||l.category===state.category)&&(!state.favOnly||state.favorites.has(l.id));});}
 function render(){const arr=filtered();$('#grid').innerHTML=arr.map(l=>`<article class="card"><button class="thumb" onclick="openLesson(${l.id})">${l.image?`<img src="${l.image}" alt="Lesson ${l.id} ${esc(l.title)}">`:`<div class="placeholder"><b>Lesson ${l.id}</b><span>圖卡待匯入</span></div>`}</button><div class="body"><span class="lesson-no">Lesson ${l.id}</span><h3>${esc(l.title)}</h3><p>${esc(l.titleZh)}</p><div class="actions"><button onclick="toggleFav(${l.id})">${state.favorites.has(l.id)?'★ 已收藏':'☆ 收藏'}</button><button onclick="toggleDone(${l.id})">${state.completed.has(l.id)?'✓ 已完成':'標記完成'}</button></div></div></article>`).join('');updateProgress();}
@@ -14,14 +36,14 @@ function toggleFav(id){state.favorites.has(id)?state.favorites.delete(id):state.
 function toggleDone(id){state.completed.has(id)?state.completed.delete(id):state.completed.add(id);save();render();updateDoneBtn();}
 function updateDoneBtn(){$('#markDone').textContent=state.completed.has(state.current)?'取消完成':'標記完成';}
 
-function hotspotStorageKey(id){return `em_hotspots_v7_${id}`;}
+function hotspotStorageKey(id){return `em_hotspots_v8_${id}`;}
 function getHotspots(id){const saved=JSON.parse(localStorage.getItem(hotspotStorageKey(id))||'null');return saved||hotspotData.lessons[String(id)]||[];}
 function clone(v){return JSON.parse(JSON.stringify(v));}
 function pushHistory(id){state.history.push({id,list:clone(getHotspots(id))});if(state.history.length>30)state.history.shift();}
 function setHotspots(id,list){localStorage.setItem(hotspotStorageKey(id),JSON.stringify(list));}
 function hotspotMarkup(h,i){return `<button class="hotspot" data-index="${i}" aria-label="${esc(h.en)}；長按顯示中文" style="left:${h.x}%;top:${h.y}%;width:${h.width}%;height:${h.height}%"><span>${esc(h.en)}</span>${state.editing?'<i class="resize-handle" aria-hidden="true"></i>':''}</button>`;}
 function imageCardMarkup(l){if(!l.image)return '<div class="empty">本課圖卡尚未匯入。</div>';const hs=getHotspots(l.id);return `<div class="image-tools"><p>點一下英文單字聽美式英文；長按約半秒顯示中文。</p><button id="editorToggle">${state.editing?'結束編輯':'Hotspot Editor'}</button></div><div id="hotspotStage" class="hotspot-stage ${state.editing?'editing':''} ${state.editing&&state.showHotspots?'show-hotspots':'hide-hotspots'}"><img class="lesson-image" src="${l.image}" alt="Lesson ${l.id} ${esc(l.title)}" draggable="false">${hs.map(hotspotMarkup).join('')}<div id="translation" class="translation" role="status" aria-live="polite"></div></div><div id="editorPanel" class="editor-panel ${state.editing?'open':''}"><div class="editor-help">拖曳空白處新增；拖曳熱區可移動；拖曳右下角圓點可調整大小。</div><label>英文<input id="hotspotEn" placeholder="English"></label><label>中文<input id="hotspotZh" placeholder="中文"></label><div class="editor-actions"><button id="updateHotspot">更新文字</button><button id="deleteHotspot">刪除選取</button><button id="toggleHotspots">${state.showHotspots?'隱藏熱區':'顯示熱區'}</button><button id="undoHotspot" ${state.history.length?'':'disabled'}>復原上一步</button><button id="resetHotspots">還原本課</button><button id="downloadHotspots">匯出 hotspots.json</button></div></div>`;}
-function openLesson(id){state.current=id;state.editing=false;state.selectedHotspot=null;const l=lessons.find(x=>x.id===id);if(!l)return;$('#modalTitle').textContent=`Lesson ${l.id}｜${l.title}`;$('#modalSub').textContent=l.titleZh;renderImagePane(l);const c=l.content;$('#wordsPane').innerHTML=c&&c.vocabulary?`<div class="words">${c.vocabulary.map(v=>`<button class="word" onclick='speak(${JSON.stringify(v[0])})'><strong>${esc(v[0])}</strong><span>${esc(v[1])}</span></button>`).join('')}</div>`:`<div class="empty">本課單字資料尚未匯入。</div>`;$('#readingPane').innerHTML=c?`<div class="reading">${(c.core||[]).map(x=>`<button class="speakline" onclick='speak(${JSON.stringify(x)})'>${esc(x)} 🔊</button>`).join('')}<p>${esc(c.reading||'')}</p><button class="primary" onclick='speak(${JSON.stringify(c.reading||'')},.82)'>全文朗讀</button></div>`:`<div class="empty">本課朗讀資料尚未匯入。</div>`;buildQuiz(l);$('#modal').classList.add('open');showTab('image');updateDoneBtn();}
+function openLesson(id){state.current=id;state.editing=false;state.selectedHotspot=null;const l=lessons.find(x=>x.id===id);if(!l)return;$('#modalTitle').textContent=`Lesson ${l.id}｜${l.title}`;$('#modalSub').textContent=l.titleZh;renderImagePane(l);const c=l.content;$('#wordsPane').innerHTML=c&&c.vocabulary?`<div class="words">${c.vocabulary.map(v=>`<button class="word" onclick='speak(${JSON.stringify(v[0])})'><strong>${esc(v[0])}</strong><span>${esc(v[1])}</span></button>`).join('')}</div>`:`<div class="empty">本課單字資料尚未匯入。</div>`;$('#readingPane').innerHTML=c?`<div class="reading"><p>${esc(c.reading||'')}</p><button class="primary read-all" onclick='speak(${JSON.stringify(c.reading||'')},.82)'>🔊 全文朗讀</button></div>`:`<div class="empty">本課朗讀資料尚未匯入。</div>`;buildQuiz(l);$('#modal').classList.add('open');showTab('image');updateDoneBtn();}
 function renderImagePane(l=lessons.find(x=>x.id===state.current)){$('#imagePane').innerHTML=imageCardMarkup(l);if(l.image)bindHotspotUI(l);}
 
 function bindHotspotUI(l){

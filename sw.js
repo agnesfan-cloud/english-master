@@ -1,4 +1,4 @@
-const CACHE='english-master-v7-lesson1-complete';
+const CACHE='english-master-v8-audio-and-spacing';
 const CORE=[
   './','./index.html','./style.css','./hotspot-v6.css','./app.js',
   './lessons.json','./hotspots.json','./manifest.webmanifest',
