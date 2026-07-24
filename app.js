@@ -1,16 +1,7 @@
 let lessons=[];
 let hotspotData={version:1,lessons:{}};
 const $=s=>document.querySelector(s);
-function readLocalArray(key){
-  try{
-    const value=JSON.parse(localStorage.getItem(key)||'[]');
-    return Array.isArray(value)?value:[];
-  }catch{
-    localStorage.removeItem(key);
-    return [];
-  }
-}
-const state={completed:new Set(readLocalArray('em_completed')),favorites:new Set(readLocalArray('em_favorites')),favOnly:false,category:'全部',query:'',current:1,dark:localStorage.getItem('em_theme')==='dark',editing:false,selectedHotspot:null,showHotspots:true,history:[]};
+const state={completed:new Set(JSON.parse(localStorage.getItem('em_completed')||'[]')),favorites:new Set(JSON.parse(localStorage.getItem('em_favorites')||'[]')),favOnly:false,category:'全部',query:'',current:1,dark:localStorage.getItem('em_theme')==='dark',editing:false,selectedHotspot:null,showHotspots:true,history:[]};
 if(state.dark)document.body.classList.add('dark');
 
 function save(){localStorage.setItem('em_completed',JSON.stringify([...state.completed]));localStorage.setItem('em_favorites',JSON.stringify([...state.favorites]));}
@@ -23,16 +14,8 @@ function toggleFav(id){state.favorites.has(id)?state.favorites.delete(id):state.
 function toggleDone(id){state.completed.has(id)?state.completed.delete(id):state.completed.add(id);save();render();updateDoneBtn();}
 function updateDoneBtn(){$('#markDone').textContent=state.completed.has(state.current)?'取消完成':'標記完成';}
 
-function hotspotStorageKey(id){return `em_hotspots_v6_${id}`;}
-function getHotspots(id){
-  try{
-    const saved=JSON.parse(localStorage.getItem(hotspotStorageKey(id))||'null');
-    if(Array.isArray(saved))return saved;
-  }catch{
-    localStorage.removeItem(hotspotStorageKey(id));
-  }
-  return hotspotData.lessons[String(id)]||[];
-}
+function hotspotStorageKey(id){return `em_hotspots_v7_${id}`;}
+function getHotspots(id){const saved=JSON.parse(localStorage.getItem(hotspotStorageKey(id))||'null');return saved||hotspotData.lessons[String(id)]||[];}
 function clone(v){return JSON.parse(JSON.stringify(v));}
 function pushHistory(id){state.history.push({id,list:clone(getHotspots(id))});if(state.history.length>30)state.history.shift();}
 function setHotspots(id,list){localStorage.setItem(hotspotStorageKey(id),JSON.stringify(list));}

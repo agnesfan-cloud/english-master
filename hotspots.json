@@ -5,49 +5,202 @@
   "lessons": {
     "1": [
       {
-        "id": "wake-up",
-        "en": "Wake up",
-        "zh": "起床",
-        "x": 4.25,
-        "y": 95.1,
-        "width": 10.15,
-        "height": 2.65
+        "id": "window",
+        "en": "Window",
+        "zh": "窗戶",
+        "x": 2.4,
+        "y": 20.4,
+        "width": 7.2,
+        "height": 6.2
       },
       {
-        "id": "bed",
-        "en": "Bed",
-        "zh": "床",
-        "x": 49.55,
-        "y": 90.65,
-        "width": 2.35,
-        "height": 2.15
+        "id": "curtain",
+        "en": "Curtain",
+        "zh": "窗簾",
+        "x": 49.0,
+        "y": 86.8,
+        "width": 9.8,
+        "height": 2.5
       },
       {
         "id": "pillow",
         "en": "Pillow",
         "zh": "枕頭",
-        "x": 23.45,
-        "y": 39.2,
-        "width": 5.25,
-        "height": 2.55
+        "x": 23.3,
+        "y": 38.5,
+        "width": 5.5,
+        "height": 6.0
+      },
+      {
+        "id": "bed",
+        "en": "Bed",
+        "zh": "床",
+        "x": 49.0,
+        "y": 91.7,
+        "width": 9.8,
+        "height": 2.5
       },
       {
         "id": "blanket",
         "en": "Blanket",
         "zh": "棉被",
-        "x": 49.45,
-        "y": 59.15,
-        "width": 5.1,
-        "height": 2.55
+        "x": 48.2,
+        "y": 58.0,
+        "width": 6.5,
+        "height": 6.0
+      },
+      {
+        "id": "alarm-clock",
+        "en": "Alarm clock",
+        "zh": "鬧鐘",
+        "x": 1.2,
+        "y": 41.2,
+        "width": 8.0,
+        "height": 6.5
+      },
+      {
+        "id": "nightstand",
+        "en": "Nightstand",
+        "zh": "床頭櫃",
+        "x": 59.3,
+        "y": 89.2,
+        "width": 9.6,
+        "height": 2.5
       },
       {
         "id": "lamp",
         "en": "Lamp",
         "zh": "檯燈",
-        "x": 17.25,
-        "y": 49.65,
-        "width": 4.25,
-        "height": 2.55
+        "x": 17.0,
+        "y": 47.6,
+        "width": 5.0,
+        "height": 6.5
+      },
+      {
+        "id": "water-bottle",
+        "en": "Water bottle",
+        "zh": "水壺",
+        "x": 1.4,
+        "y": 59.6,
+        "width": 8.0,
+        "height": 5.9
+      },
+      {
+        "id": "bookshelf",
+        "en": "Bookshelf",
+        "zh": "書架",
+        "x": 48.0,
+        "y": 6.2,
+        "width": 7.4,
+        "height": 6.2
+      },
+      {
+        "id": "books",
+        "en": "Books",
+        "zh": "書",
+        "x": 59.5,
+        "y": 20.7,
+        "width": 6.4,
+        "height": 6.0
+      },
+      {
+        "id": "closet",
+        "en": "Closet",
+        "zh": "衣櫃",
+        "x": 81.0,
+        "y": 12.7,
+        "width": 6.0,
+        "height": 6.2
+      },
+      {
+        "id": "desk",
+        "en": "Desk",
+        "zh": "書桌",
+        "x": 94.0,
+        "y": 43.2,
+        "width": 5.8,
+        "height": 6.0
+      },
+      {
+        "id": "chair",
+        "en": "Chair",
+        "zh": "椅子",
+        "x": 73.7,
+        "y": 53.2,
+        "width": 6.2,
+        "height": 6.0
+      },
+      {
+        "id": "backpack",
+        "en": "Backpack",
+        "zh": "書包",
+        "x": 91.4,
+        "y": 75.3,
+        "width": 7.5,
+        "height": 6.0
+      },
+      {
+        "id": "slippers",
+        "en": "Slippers",
+        "zh": "拖鞋",
+        "x": 14.5,
+        "y": 72.7,
+        "width": 7.5,
+        "height": 6.0
+      },
+      {
+        "id": "rug",
+        "en": "Rug",
+        "zh": "地毯",
+        "x": 69.0,
+        "y": 70.5,
+        "width": 5.0,
+        "height": 6.0
+      },
+      {
+        "id": "door",
+        "en": "Door",
+        "zh": "門",
+        "x": 93.0,
+        "y": 18.7,
+        "width": 5.0,
+        "height": 6.0
+      },
+      {
+        "id": "wall",
+        "en": "Wall",
+        "zh": "牆壁",
+        "x": 85.6,
+        "y": 94.2,
+        "width": 10.0,
+        "height": 2.5
+      },
+      {
+        "id": "wake-up",
+        "en": "Wake up",
+        "zh": "起床",
+        "x": 2.6,
+        "y": 92.5,
+        "width": 13.0,
+        "height": 5.0
+      },
+      {
+        "id": "stretch",
+        "en": "Stretch",
+        "zh": "伸懶腰",
+        "x": 16.0,
+        "y": 92.5,
+        "width": 13.0,
+        "height": 5.0
+      },
+      {
+        "id": "yawn",
+        "en": "Yawn",
+        "zh": "打哈欠",
+        "x": 29.0,
+        "y": 92.5,
+        "width": 10.5,
+        "height": 5.0
       }
     ]
   }

@@ -9,32 +9,36 @@
       "title": "WAKE UP",
       "titleZh": "起床",
       "vocabulary": [
-        [
-          "wake up",
-          "醒來／起床"
-        ],
-        [
-          "bed",
-          "床"
-        ],
-        [
-          "pillow",
-          "枕頭"
-        ],
-        [
-          "blanket",
-          "毯子"
-        ],
-        [
-          "lamp",
-          "燈"
-        ]
+        ["window", "窗戶"],
+        ["curtain", "窗簾"],
+        ["pillow", "枕頭"],
+        ["bed", "床"],
+        ["blanket", "毯子"],
+        ["alarm clock", "鬧鐘"],
+        ["nightstand", "床頭櫃"],
+        ["lamp", "檯燈"],
+        ["water bottle", "水壺"],
+        ["bookshelf", "書架"],
+        ["books", "書"],
+        ["closet", "衣櫃"],
+        ["desk", "書桌"],
+        ["chair", "椅子"],
+        ["backpack", "書包"],
+        ["slippers", "拖鞋"],
+        ["rug", "地毯"],
+        ["door", "門"],
+        ["wall", "牆壁"],
+        ["wake up", "起床"],
+        ["stretch", "伸懶腰"],
+        ["yawn", "打哈欠"]
       ],
       "core": [
+        "I wake up at seven o'clock.",
         "Wake up!",
-        "I wake up in my bed."
+        "Stretch!",
+        "Yawn!"
       ],
-      "reading": "Good morning! I wake up in my bed. My head is on the pillow, and the blanket keeps me warm. The lamp is next to my bed."
+      "reading": "Good morning! I wake up at seven o'clock. I stretch and yawn in bed. My head is on the pillow, and the blanket keeps me warm. The alarm clock and lamp are on the nightstand beside my bed."
     }
   },
   {
@@ -42,7 +46,7 @@
     "title": "LESSON 2",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-002.png",
+    "image": "",
     "content": null
   },
   {
@@ -50,7 +54,7 @@
     "title": "LESSON 3",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-003.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -58,7 +62,7 @@
     "title": "LESSON 4",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-004.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -66,7 +70,7 @@
     "title": "LESSON 5",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-005.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -74,7 +78,7 @@
     "title": "LESSON 6",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-006.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -82,7 +86,7 @@
     "title": "LESSON 7",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-007.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -90,7 +94,7 @@
     "title": "LESSON 8",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-008.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -98,7 +102,7 @@
     "title": "LESSON 9",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-009.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -106,7 +110,7 @@
     "title": "LESSON 10",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-010.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -114,7 +118,7 @@
     "title": "LESSON 11",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-011.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -122,7 +126,7 @@
     "title": "LESSON 12",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-012.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -130,7 +134,7 @@
     "title": "LESSON 13",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-013.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -138,7 +142,7 @@
     "title": "LESSON 14",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-014.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -146,7 +150,7 @@
     "title": "LESSON 15",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-015.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -154,7 +158,7 @@
     "title": "LESSON 16",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-016.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -162,7 +166,7 @@
     "title": "LESSON 17",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-017.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -170,7 +174,7 @@
     "title": "LESSON 18",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-018.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -178,7 +182,7 @@
     "title": "LESSON 19",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-019.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -186,7 +190,7 @@
     "title": "LESSON 20",
     "titleZh": "教材內容待匯入",
     "category": "居家與日常",
-    "image": "images/lesson-020.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -194,7 +198,7 @@
     "title": "LESSON 21",
     "titleZh": "教材內容待匯入",
     "category": "家庭生活",
-    "image": "images/lesson-021.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -202,7 +206,7 @@
     "title": "LESSON 22",
     "titleZh": "教材內容待匯入",
     "category": "家庭生活",
-    "image": "images/lesson-022.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -210,7 +214,7 @@
     "title": "LESSON 23",
     "titleZh": "教材內容待匯入",
     "category": "家庭生活",
-    "image": "images/lesson-023.png",
+    "image": "",
     "content": null
   },
   {
@@ -218,7 +222,7 @@
     "title": "LESSON 24",
     "titleZh": "教材內容待匯入",
     "category": "家庭生活",
-    "image": "images/lesson-024.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -226,7 +230,7 @@
     "title": "LESSON 25",
     "titleZh": "教材內容待匯入",
     "category": "家庭生活",
-    "image": "images/lesson-025.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -234,7 +238,7 @@
     "title": "LESSON 26",
     "titleZh": "教材內容待匯入",
     "category": "家庭生活",
-    "image": "images/lesson-026.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -242,7 +246,7 @@
     "title": "LESSON 27",
     "titleZh": "教材內容待匯入",
     "category": "家庭生活",
-    "image": "images/lesson-027.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -250,7 +254,7 @@
     "title": "LESSON 28",
     "titleZh": "教材內容待匯入",
     "category": "家庭生活",
-    "image": "images/lesson-028.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -258,7 +262,7 @@
     "title": "LESSON 29",
     "titleZh": "教材內容待匯入",
     "category": "家庭生活",
-    "image": "images/lesson-029.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -266,7 +270,7 @@
     "title": "LESSON 30",
     "titleZh": "教材內容待匯入",
     "category": "家庭生活",
-    "image": "images/lesson-030.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -274,7 +278,7 @@
     "title": "LESSON 31",
     "titleZh": "教材內容待匯入",
     "category": "家庭生活",
-    "image": "images/lesson-031.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -282,7 +286,7 @@
     "title": "LESSON 32",
     "titleZh": "教材內容待匯入",
     "category": "家庭生活",
-    "image": "images/lesson-032.png",
+    "image": "",
     "content": null
   },
   {
@@ -290,7 +294,7 @@
     "title": "LESSON 33",
     "titleZh": "教材內容待匯入",
     "category": "家庭生活",
-    "image": "images/lesson-033.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -298,7 +302,7 @@
     "title": "LESSON 34",
     "titleZh": "教材內容待匯入",
     "category": "家庭生活",
-    "image": "images/lesson-034.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -306,7 +310,7 @@
     "title": "LESSON 35",
     "titleZh": "教材內容待匯入",
     "category": "家庭生活",
-    "image": "images/lesson-035.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -314,7 +318,7 @@
     "title": "TAKING CARE OF MY PET",
     "titleZh": "照顧我的寵物",
     "category": "家庭生活",
-    "image": "images/lesson-036.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -322,7 +326,7 @@
     "title": "A DAY AT HOME",
     "titleZh": "在家的一天",
     "category": "家庭生活",
-    "image": "images/lesson-037.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -330,7 +334,7 @@
     "title": "FAMILY TRADITIONS",
     "titleZh": "家庭傳統",
     "category": "家庭生活",
-    "image": "images/lesson-038.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -338,7 +342,7 @@
     "title": "MY DREAM HOUSE",
     "titleZh": "我的夢想房子",
     "category": "家庭生活",
-    "image": "images/lesson-039.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -346,7 +350,7 @@
     "title": "REVIEW",
     "titleZh": "家庭生活總複習",
     "category": "家庭生活",
-    "image": "images/lesson-040.jpeg",
+    "image": "",
     "content": null
   },
   {
@@ -354,7 +358,7 @@
     "title": "SUPERMARKET",
     "titleZh": "超級市場",
     "category": "社區生活",
-    "image": "images/lesson-041.jpeg",
+    "image": "images/lesson-41.webp",
     "content": {
       "title": "SUPERMARKET",
       "titleZh": "超級市場",
@@ -395,7 +399,7 @@
     "title": "HOSPITAL",
     "titleZh": "醫院",
     "category": "社區生活",
-    "image": "images/lesson-042.jpeg",
+    "image": "images/lesson-42.webp",
     "content": {
       "title": "HOSPITAL",
       "titleZh": "醫院",
@@ -436,7 +440,7 @@
     "title": "POST OFFICE",
     "titleZh": "郵局",
     "category": "社區生活",
-    "image": "images/lesson-043.jpeg",
+    "image": "images/lesson-43.webp",
     "content": {
       "title": "POST OFFICE",
       "titleZh": "郵局",
@@ -477,7 +481,7 @@
     "title": "BANK",
     "titleZh": "銀行",
     "category": "社區生活",
-    "image": "images/lesson-044.jpeg",
+    "image": "images/lesson-44.webp",
     "content": {
       "title": "BANK",
       "titleZh": "銀行",
@@ -518,7 +522,7 @@
     "title": "POLICE STATION",
     "titleZh": "警察局",
     "category": "社區生活",
-    "image": "images/lesson-045.jpeg",
+    "image": "images/lesson-45.webp",
     "content": {
       "title": "POLICE STATION",
       "titleZh": "警察局",
@@ -559,7 +563,7 @@
     "title": "FIRE STATION",
     "titleZh": "消防隊",
     "category": "社區生活",
-    "image": "images/lesson-046.jpeg",
+    "image": "images/lesson-46.webp",
     "content": {
       "title": "FIRE STATION",
       "titleZh": "消防隊",
@@ -600,7 +604,7 @@
     "title": "LIBRARY",
     "titleZh": "圖書館",
     "category": "社區生活",
-    "image": "images/lesson-047.jpeg",
+    "image": "images/lesson-47.webp",
     "content": {
       "title": "LIBRARY",
       "titleZh": "圖書館",
@@ -641,7 +645,7 @@
     "title": "PARK",
     "titleZh": "公園",
     "category": "社區生活",
-    "image": "images/lesson-048.jpeg",
+    "image": "images/lesson-48.webp",
     "content": {
       "title": "PARK",
       "titleZh": "公園",
@@ -682,7 +686,7 @@
     "title": "BUS STATION",
     "titleZh": "公車站",
     "category": "社區生活",
-    "image": "images/lesson-049.jpeg",
+    "image": "images/lesson-49.webp",
     "content": {
       "title": "BUS STATION",
       "titleZh": "公車站",
@@ -723,7 +727,7 @@
     "title": "RESTAURANT",
     "titleZh": "餐廳",
     "category": "社區生活",
-    "image": "images/lesson-050.jpeg",
+    "image": "images/lesson-50.webp",
     "content": {
       "title": "RESTAURANT",
       "titleZh": "餐廳",
@@ -768,7 +772,7 @@
     "title": "BAKERY",
     "titleZh": "麵包店",
     "category": "社區生活",
-    "image": "images/lesson-051.jpeg",
+    "image": "images/lesson-51.webp",
     "content": {
       "title": "BAKERY",
       "titleZh": "麵包店",
@@ -813,7 +817,7 @@
     "title": "PHARMACY",
     "titleZh": "藥局",
     "category": "社區生活",
-    "image": "images/lesson-052.jpeg",
+    "image": "images/lesson-52.webp",
     "content": {
       "title": "PHARMACY",
       "titleZh": "藥局",
@@ -862,7 +866,7 @@
     "title": "BOOKSTORE",
     "titleZh": "書店",
     "category": "社區生活",
-    "image": "images/lesson-053.jpeg",
+    "image": "images/lesson-53.webp",
     "content": {
       "title": "BOOKSTORE",
       "titleZh": "書店",
@@ -907,7 +911,7 @@
     "title": "CLOTHING STORE",
     "titleZh": "服飾店",
     "category": "社區生活",
-    "image": "images/lesson-054.jpeg",
+    "image": "images/lesson-54.webp",
     "content": {
       "title": "CLOTHING STORE",
       "titleZh": "服飾店",
@@ -964,7 +968,7 @@
     "title": "TOY STORE",
     "titleZh": "玩具店",
     "category": "社區生活",
-    "image": "images/lesson-055.jpeg",
+    "image": "images/lesson-55.webp",
     "content": {
       "title": "TOY STORE",
       "titleZh": "玩具店",
@@ -1021,7 +1025,7 @@
     "title": "COMMUNITY REVIEW",
     "titleZh": "社區生活總複習",
     "category": "社區生活",
-    "image": "images/lesson-056.jpeg",
+    "image": "images/lesson-56.webp",
     "content": null
   },
   {
@@ -1029,7 +1033,7 @@
     "title": "MOVIE THEATER",
     "titleZh": "電影院",
     "category": "社區生活",
-    "image": "images/lesson-057.png",
+    "image": "images/lesson-57.webp",
     "content": {
       "title": "MOVIE THEATER",
       "titleZh": "電影院",
@@ -1086,7 +1090,7 @@
     "title": "MUSEUM",
     "titleZh": "博物館",
     "category": "社區生活",
-    "image": "images/lesson-058.jpeg",
+    "image": "images/lesson-58.webp",
     "content": {
       "title": "MUSEUM",
       "titleZh": "博物館",
@@ -1139,7 +1143,7 @@
     "title": "ZOO",
     "titleZh": "動物園",
     "category": "社區生活",
-    "image": "images/lesson-059.jpeg",
+    "image": "images/lesson-59.webp",
     "content": {
       "title": "ZOO",
       "titleZh": "動物園",
@@ -1200,7 +1204,7 @@
     "title": "COMMUNITY HELPERS",
     "titleZh": "社區工作者",
     "category": "社區生活",
-    "image": "images/lesson-060.jpeg",
+    "image": "images/lesson-60.webp",
     "content": {
       "title": "COMMUNITY HELPERS",
       "titleZh": "社區工作者",
@@ -1257,7 +1261,7 @@
     "title": "CAR",
     "titleZh": "汽車",
     "category": "交通與學校",
-    "image": "images/lesson-061.jpeg",
+    "image": "images/lesson-61.webp",
     "content": {
       "title": "CAR",
       "titleZh": "汽車",
@@ -1314,7 +1318,7 @@
     "title": "BUS",
     "titleZh": "公車",
     "category": "交通與學校",
-    "image": "images/lesson-062.jpeg",
+    "image": "images/lesson-62.webp",
     "content": {
       "title": "BUS",
       "titleZh": "公車",
@@ -1371,7 +1375,7 @@
     "title": "BICYCLE",
     "titleZh": "腳踏車",
     "category": "交通與學校",
-    "image": "images/lesson-063.jpeg",
+    "image": "images/lesson-63.webp",
     "content": {
       "title": "BICYCLE",
       "titleZh": "腳踏車",
@@ -1428,7 +1432,7 @@
     "title": "TRAIN",
     "titleZh": "火車",
     "category": "交通與學校",
-    "image": "images/lesson-064.jpeg",
+    "image": "images/lesson-64.webp",
     "content": {
       "title": "TRAIN",
       "titleZh": "火車",
@@ -1485,7 +1489,7 @@
     "title": "AIRPLANE",
     "titleZh": "飛機",
     "category": "交通與學校",
-    "image": "images/lesson-065.jpeg",
+    "image": "images/lesson-65.webp",
     "content": {
       "title": "AIRPLANE",
       "titleZh": "飛機",
@@ -1542,7 +1546,7 @@
     "title": "TAXI",
     "titleZh": "計程車",
     "category": "交通與學校",
-    "image": "images/lesson-066.jpeg",
+    "image": "images/lesson-66.webp",
     "content": {
       "title": "TAXI",
       "titleZh": "計程車",
@@ -1599,7 +1603,7 @@
     "title": "MOTORCYCLE",
     "titleZh": "機車",
     "category": "交通與學校",
-    "image": "images/lesson-067.jpeg",
+    "image": "images/lesson-67.webp",
     "content": {
       "title": "MOTORCYCLE",
       "titleZh": "機車",
@@ -1656,7 +1660,7 @@
     "title": "SUBWAY",
     "titleZh": "捷運",
     "category": "交通與學校",
-    "image": "images/lesson-068.png",
+    "image": "images/lesson-68.webp",
     "content": {
       "title": "SUBWAY",
       "titleZh": "捷運",
@@ -1713,7 +1717,7 @@
     "title": "BOAT",
     "titleZh": "船",
     "category": "交通與學校",
-    "image": "images/lesson-069.jpeg",
+    "image": "images/lesson-69.webp",
     "content": {
       "title": "BOAT",
       "titleZh": "船",
@@ -1770,7 +1774,7 @@
     "title": "TRANSPORTATION REVIEW",
     "titleZh": "交通工具總複習",
     "category": "交通與學校",
-    "image": "images/lesson-070.jpeg",
+    "image": "images/lesson-70.webp",
     "content": {
       "title": "TRANSPORTATION REVIEW",
       "titleZh": "交通工具總複習",
@@ -1827,7 +1831,7 @@
     "title": "TRAFFIC LIGHT",
     "titleZh": "紅綠燈",
     "category": "交通與學校",
-    "image": "images/lesson-071.jpeg",
+    "image": "images/lesson-71.webp",
     "content": {
       "title": "TRAFFIC LIGHT",
       "titleZh": "紅綠燈",
@@ -1884,7 +1888,7 @@
     "title": "CROSSWALK",
     "titleZh": "斑馬線／行人穿越道",
     "category": "交通與學校",
-    "image": "images/lesson-072.jpeg",
+    "image": "images/lesson-72.webp",
     "content": {
       "title": "CROSSWALK",
       "titleZh": "斑馬線／行人穿越道",
@@ -1941,7 +1945,7 @@
     "title": "ROAD SIGNS",
     "titleZh": "道路標誌",
     "category": "交通與學校",
-    "image": "images/lesson-073.jpeg",
+    "image": "images/lesson-73.webp",
     "content": {
       "title": "ROAD SIGNS",
       "titleZh": "道路標誌",
@@ -1998,7 +2002,7 @@
     "title": "GOING TO SCHOOL",
     "titleZh": "上學去",
     "category": "交通與學校",
-    "image": "images/lesson-074.jpeg",
+    "image": "images/lesson-74.webp",
     "content": {
       "title": "GOING TO SCHOOL",
       "titleZh": "上學去",
@@ -2063,7 +2067,7 @@
     "title": "AT SCHOOL",
     "titleZh": "在學校",
     "category": "交通與學校",
-    "image": "images/lesson-075.jpeg",
+    "image": "images/lesson-75.webp",
     "content": {
       "title": "AT SCHOOL",
       "titleZh": "在學校",
@@ -2128,7 +2132,7 @@
     "title": "FAMILY TRIP",
     "titleZh": "家庭旅行",
     "category": "交通與學校",
-    "image": "images/lesson-076.jpeg",
+    "image": "images/lesson-76.webp",
     "content": {
       "title": "FAMILY TRIP",
       "titleZh": "家庭旅行",
@@ -2193,7 +2197,7 @@
     "title": "AT THE AIRPORT",
     "titleZh": "在機場",
     "category": "交通與學校",
-    "image": "images/lesson-077.jpeg",
+    "image": "images/lesson-77.webp",
     "content": {
       "title": "AT THE AIRPORT",
       "titleZh": "在機場",
@@ -2250,7 +2254,7 @@
     "title": "CLASSROOM",
     "titleZh": "教室",
     "category": "交通與學校",
-    "image": "images/lesson-078.jpeg",
+    "image": "images/lesson-78.webp",
     "content": {
       "title": "CLASSROOM",
       "titleZh": "教室",
@@ -2315,7 +2319,7 @@
     "title": "TRANSPORTATION PROJECT",
     "titleZh": "交通專題",
     "category": "交通與學校",
-    "image": "images/lesson-079.jpeg",
+    "image": "images/lesson-79.webp",
     "content": {
       "title": "TRANSPORTATION PROJECT",
       "titleZh": "交通專題",
@@ -2380,7 +2384,7 @@
     "title": "USING PUBLIC TRANSPORTATION",
     "titleZh": "搭乘大眾運輸",
     "category": "交通與學校",
-    "image": "images/lesson-080.jpeg",
+    "image": "images/lesson-80.webp",
     "content": {
       "title": "USING PUBLIC TRANSPORTATION",
       "titleZh": "搭乘大眾運輸",
@@ -2445,7 +2449,7 @@
     "title": "WEATHER",
     "titleZh": "天氣",
     "category": "自然世界",
-    "image": "images/lesson-081.jpeg",
+    "image": "images/lesson-81.webp",
     "content": {
       "title": "WEATHER",
       "titleZh": "天氣",
@@ -2510,7 +2514,7 @@
     "title": "SEASONS",
     "titleZh": "季節",
     "category": "自然世界",
-    "image": "images/lesson-082.jpeg",
+    "image": "images/lesson-82.webp",
     "content": {
       "title": "SEASONS",
       "titleZh": "季節",
@@ -2575,7 +2579,7 @@
     "title": "MOUNTAINS",
     "titleZh": "山脈",
     "category": "自然世界",
-    "image": "images/lesson-083.jpeg",
+    "image": "images/lesson-83.webp",
     "content": {
       "title": "MOUNTAINS",
       "titleZh": "山脈",
@@ -2640,7 +2644,7 @@
     "title": "THE OCEAN",
     "titleZh": "海洋",
     "category": "自然世界",
-    "image": "images/lesson-084.jpeg",
+    "image": "images/lesson-84.webp",
     "content": {
       "title": "THE OCEAN",
       "titleZh": "海洋",
@@ -2705,7 +2709,7 @@
     "title": "CITIES AND TOWNS",
     "titleZh": "城市和城鎮",
     "category": "自然世界",
-    "image": "images/lesson-085.jpeg",
+    "image": "images/lesson-85.webp",
     "content": {
       "title": "CITIES AND TOWNS",
       "titleZh": "城市和城鎮",
@@ -2770,7 +2774,7 @@
     "title": "FOREST",
     "titleZh": "森林",
     "category": "自然世界",
-    "image": "images/lesson-086.jpeg",
+    "image": "images/lesson-86.webp",
     "content": {
       "title": "FOREST",
       "titleZh": "森林",
@@ -2835,7 +2839,7 @@
     "title": "FARM",
     "titleZh": "農場",
     "category": "自然世界",
-    "image": "images/lesson-087.jpeg",
+    "image": "images/lesson-87.webp",
     "content": {
       "title": "FARM",
       "titleZh": "農場",
@@ -2900,7 +2904,7 @@
     "title": "WILD ANIMALS",
     "titleZh": "野生動物",
     "category": "自然世界",
-    "image": "images/lesson-088.jpeg",
+    "image": "images/lesson-88.webp",
     "content": {
       "title": "WILD ANIMALS",
       "titleZh": "野生動物",
@@ -2965,7 +2969,7 @@
     "title": "PLANTS",
     "titleZh": "植物",
     "category": "自然世界",
-    "image": "images/lesson-089.jpeg",
+    "image": "images/lesson-89.webp",
     "content": {
       "title": "PLANTS",
       "titleZh": "植物",
@@ -3030,7 +3034,7 @@
     "title": "NATURE REVIEW",
     "titleZh": "自然總複習",
     "category": "自然世界",
-    "image": "images/lesson-090.jpeg",
+    "image": "images/lesson-90.webp",
     "content": {
       "title": "NATURE REVIEW",
       "titleZh": "自然總複習",
@@ -3095,7 +3099,7 @@
     "title": "EARTH",
     "titleZh": "地球",
     "category": "世界與未來",
-    "image": "images/lesson-091.png",
+    "image": "images/lesson-91.webp",
     "content": {
       "title": "EARTH",
       "titleZh": "地球",
@@ -3161,7 +3165,7 @@
     "title": "CONTINENTS",
     "titleZh": "大陸",
     "category": "世界與未來",
-    "image": "images/lesson-092.jpeg",
+    "image": "images/lesson-92.webp",
     "content": {
       "title": "CONTINENTS",
       "titleZh": "大陸",
@@ -3223,7 +3227,7 @@
     "title": "COUNTRIES",
     "titleZh": "國家",
     "category": "世界與未來",
-    "image": "images/lesson-093.jpeg",
+    "image": "",
     "content": {
       "title": "COUNTRIES",
       "titleZh": "國家",
@@ -3289,7 +3293,7 @@
     "title": "CITIES",
     "titleZh": "城市",
     "category": "世界與未來",
-    "image": "images/lesson-094.jpeg",
+    "image": "images/lesson-94.webp",
     "content": {
       "title": "CITIES",
       "titleZh": "城市",
@@ -3355,7 +3359,7 @@
     "title": "CULTURES",
     "titleZh": "文化",
     "category": "世界與未來",
-    "image": "images/lesson-095.jpeg",
+    "image": "images/lesson-95.webp",
     "content": {
       "title": "CULTURES",
       "titleZh": "文化",
@@ -3421,7 +3425,7 @@
     "title": "LANGUAGES",
     "titleZh": "語言",
     "category": "世界與未來",
-    "image": "images/lesson-096.png",
+    "image": "images/lesson-96.webp",
     "content": {
       "title": "LANGUAGES",
       "titleZh": "語言",
@@ -3487,7 +3491,7 @@
     "title": "PROTECT THE EARTH",
     "titleZh": "保護地球",
     "category": "世界與未來",
-    "image": "images/lesson-097.png",
+    "image": "images/lesson-97.webp",
     "content": {
       "title": "PROTECT THE EARTH",
       "titleZh": "保護地球",
@@ -3557,7 +3561,7 @@
     "title": "RECYCLING",
     "titleZh": "回收再利用",
     "category": "世界與未來",
-    "image": "images/lesson-098.png",
+    "image": "images/lesson-98.webp",
     "content": {
       "title": "RECYCLING",
       "titleZh": "回收再利用",
@@ -3623,7 +3627,7 @@
     "title": "MY FUTURE WORLD",
     "titleZh": "我未來的世界",
     "category": "世界與未來",
-    "image": "images/lesson-099.png",
+    "image": "images/lesson-99.webp",
     "content": {
       "title": "MY FUTURE WORLD",
       "titleZh": "我未來的世界",
@@ -3689,7 +3693,7 @@
     "title": "FINAL REVIEW",
     "titleZh": "總複習",
     "category": "世界與未來",
-    "image": "images/lesson-100.png",
+    "image": "images/lesson-100.webp",
     "content": {
       "title": "FINAL REVIEW",
       "titleZh": "總複習",

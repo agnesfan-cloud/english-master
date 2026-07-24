@@ -1,4 +1,4 @@
-const CACHE='english-master-v1.0.0';
+const CACHE='english-master-v7-lesson1-complete';
 const CORE=[
   './','./index.html','./style.css','./hotspot-v6.css','./app.js',
   './lessons.json','./hotspots.json','./manifest.webmanifest',
@@ -15,12 +15,7 @@ self.addEventListener('activate',event=>{
 self.addEventListener('fetch',event=>{
   if(event.request.method!=='GET')return;
   const url=new URL(event.request.url);
-  if(url.origin!==location.origin)return;
-  const networkFirst=event.request.mode==='navigate'||[
-    '/index.html','/style.css','/hotspot-v6.css','/app.js',
-    '/lessons.json','/hotspots.json','/manifest.webmanifest'
-  ].some(path=>url.pathname.endsWith(path));
-  if(networkFirst){
+  if(url.origin===location.origin&&(url.pathname.endsWith('/hotspots.json')||url.pathname.endsWith('/lessons.json'))){
     event.respondWith(fetch(event.request).then(response=>{
       if(response.ok){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));}
       return response;
@@ -28,7 +23,7 @@ self.addEventListener('fetch',event=>{
     return;
   }
   event.respondWith(caches.match(event.request).then(cached=>cached||fetch(event.request).then(response=>{
-    if(response.ok){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));}
+    if(response.ok&&new URL(event.request.url).origin===location.origin){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));}
     return response;
   })));
 });
